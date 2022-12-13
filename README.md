@@ -43,26 +43,26 @@ Whitepaper 2.0
 
 
 
-Premise: The Original Whitepaper1 offered us a first glimpse into the project, declaredly without entering too much in technical detail. Knowledge is a journey and the“DATAGEN WHITEPAPER 2.0” is bringing the Datagen journey to the next stage. 
+Premise: The Original Whitepaper{1} offered us a first glimpse into the project, declaredly without entering too much in technical detail. Knowledge is a journey and the“DATAGEN WHITEPAPER 2.0” is bringing the Datagen journey to the next stage. 
 Blockchains store immutable data, but the “shape” of the same Blockchains evolve while they are bug-fixed, improved or while they migrate to a totally new consensus protocol. 
 The Datagen Whitepaper 2.0 expands, deletes, and emends ideas previously expressed in the Original Whitepaper: a greater understanding of the best technology solutions, the evolution of the market and of the competitive landscape and simply all the knowledge accumulated in the journey from the writing of the Original Whitepaper ingenerated changes in the development path of the Datagen infrastructure that must also be reflected in the Whitepaper.
 The Whitepaper 2.0 is not the final destination for Datagen, but just another stage of its evolution, since the destiny of all alive beings (be they biologically or intellectually alive) is to evolve or die.
-The Theseus’ Paradox2 is a thought experiment that raises the question of whether an object that has had all its components replaced remains fundamentally the same object. The original paradox wondered whether replacing, one by one, all the components of a ship the resulting ship still had the same identity of the original one. 
+The Theseus’ Paradox{2} is a thought experiment that raises the question of whether an object that has had all its components replaced remains fundamentally the same object. The original paradox wondered whether replacing, one by one, all the components of a ship the resulting ship still had the same identity of the original one. 
 Similarly, in the present Datagen Whitepaper 2.0 many ideas will replace those expressed in the original one: solutions for decentralized cloud computing are taking the main stage and their technical overview is greatly expanded. Conversely, other ideas explored in the Original Datagen whitepaper like the Privacy Friendly Search Engine, Minidata, the exchange Portal, are fading either to the margin of the stage or to the backstage, where wonderful but useless contraptions are discarded (maybe to be retrieved later, maybe to stay there, in the dust, forever). 
 This is not a betrayal of the vision expressed in the Original Whitepaper, but its fulfillment, exactly like in the Theseus Ship: the wooden planks devoured by the salty water, or the ropes consumed by their incessant use must be replaced for the ship to fulfill its purpose of being a functional vessel. In the same way, to fulfill the purpose of the Datagen infrastructure, which is to fuel the Data-needs of the Web3 world, the Datagen Whitepaper needs a metanoia towards a more concise, technically precise, and less byzantine document revolving around an infrastructure for GPU/CPU computation, to mirror the direction that the Development of the Datagen Project is undertaking: the “Datagen Whitepaper” needs to evolve into the “Datagen Whitepaper 2.0”
 
 
-Note: The Datagen Whitepaper is analyzing the need for and characteristics of an ideal decentralized network for GPU/CPU Cloud Computing - Not for Cloud Storage3 
+Note: The Datagen Whitepaper is analyzing the need for and characteristics of an ideal decentralized network for GPU/CPU Cloud Computing - Not for Cloud Storage{3} 
 Cloud Computing and Cloud Storage networks share many core features and many assumptions made for decentralized GPU/CPU Cloud Computing could be true even for decentralized Cloud Storage. However, many different factors, which are not the subject of this whitepaper (such as different hardware and software requirements), entail that, to be performed in economically efficient ways, both GPU/CPU Cloud Computing and Cloud Storage require separate architectures. That’s why, in continuity with other existing solutions, in the present whitepaper we only analyze the need and the characteristics of a GPU/CPU Cloud Computing network.
-Cloud Storage needs could be addressed separately, notably with the use of APIs or other solutions to connect to exisiting cloud storage stacks or protocols (e.g. Filecoin4 or IPFS5).
+Cloud Storage needs could be addressed separately, notably with the use of APIs or other solutions to connect to exisiting cloud storage stacks or protocols (e.g. Filecoin{4} or IPFS{5}).
 
 
 
 
 Why the World needs a Decentralized Cloud Computing Infrastructure
 
-Web3 flourished to correct the shortcomings of centralized Web2, exactly like Crypto flourished to correct the shortcomings of centralized money and DeFi the mistakes of centralized finance6,7.
-When Web3, Crypto or DeFi projects resort to use centralized tools for their critically important inner works they are undermining not only the ideal decentralization principles that sparked the Web3 revolution, but also their products’ security, resiliency, transparency8. 
+Web3 flourished to correct the shortcomings of centralized Web2, exactly like Crypto flourished to correct the shortcomings of centralized money and DeFi the mistakes of centralized finance {6,7}.
+When Web3, Crypto or DeFi projects resort to use centralized tools for their critically important inner works they are undermining not only the ideal decentralization principles that sparked the Web3 revolution, but also their products’ security, resiliency, transparency{8}. 
 Web3 applications and PoS validators are still heavily reliant on centralized computational stacks. As cloud computing is the deepest and one of the most critical layers for any Web3 project, the overreliance on them is posing a strategical risk for any Web3 project (e.g. PoS blockchains, a decentralized metaverse or a privacy friendly search engine) making them more vulnerable to censorship, downtime and efficiency issues.
 
 The Datagen network, is a blockchain-based GPU/CPU cloud computing infrastructure for on-chain computation. It will include a Layer1 and a Layer2 substrate-based blockchains, with an asynchronous randomized consensus protocol, that will allow low-latency and efficient computation, with a higher degree of decentralization, even at the hardware level.
@@ -73,11 +73,11 @@ But, before, we need to explain what is already there and what the Datagen infra
 
 Why the Decentralized Cloud Computing Infrastructure that the World needs can’t be off-chain
 
-Blockchain technology was not originally created to perform cloud computing efficiently9. 
+Blockchain technology was not originally created to perform cloud computing efficiently{9}. 
 Blockchain was created to reliably store immutable data, which are impossible to falsify and not reliant on opaque centralized authorities. 
-The focus on these stated goals vs efficiency is self-evident just looking at the energy consumption of first generation PoW blockchain networks. Afterwards, the problems generated from the modeling of the original PoW consensus protocols (namely staggering energy consumptions10 and very high transaction costs) have been mitigated by the second wave of consensus protocols: PoS consensuses11.
-The incremental efficiency of PoS technology, compared to PoW, offered interesting solutions to decentralized-cloud computing networks in terms of efficiency, but no solution to the problem of speed: even in PoS, data needs to propagate to different nodes and validators12,13,14 and this takes a time which is very long compared to the cloud computing industry standard latency-time.
-That’s why some decentralized cloud computing projects15,16 took the short-cut of moving the computation off-chain. 
+The focus on these stated goals vs efficiency is self-evident just looking at the energy consumption of first generation PoW blockchain networks. Afterwards, the problems generated from the modeling of the original PoW consensus protocols (namely staggering energy consumptions{10} and very high transaction costs) have been mitigated by the second wave of consensus protocols: PoS consensuses{11}.
+The incremental efficiency of PoS technology, compared to PoW, offered interesting solutions to decentralized-cloud computing networks in terms of efficiency, but no solution to the problem of speed: even in PoS, data needs to propagate to different nodes and validators{12,13,14} and this takes a time which is very long compared to the cloud computing industry standard latency-time.
+That’s why some decentralized cloud computing projects{15,16} took the short-cut of moving the computation off-chain. 
 The technical approach of moving the computation off-chain is becoming increasingly popular in the industry, since it improves the latency time performances without the need for very complex architectures. 
 The main problem of this approach is that the blockchain technology is removed altogether from the equation when it comes to the computation itself and is just re-introduced in a cosmetically pleasing way for secondary features of those off-chain networks, such as smart contracts to match supply and demand or similar. 
 But: 
@@ -97,25 +97,25 @@ Why the Decentralized Cloud Computing Infrastructure that the World needs can’
 
 Being Layer2 has benefits: 
 
-1.	Layer2s are efficient17;
-2.	Creating a Layer2 is usually simpler18 than working around a Layer1, development-wise.
+1.	Layer2s are efficient{17};
+2.	Creating a Layer2 is usually simpler{18} than working around a Layer1, development-wise.
  
 Why not using a Layer2 only? 
 
 Layer2 usually need at least to respect the blocktime of the underlying Layer(s). 
-This means that any Layer2 built on Ethereum will have a blocktime ≈12 seconds or greater and any (classically defined) Layer2 built on Polkadot or Cosmos will have a blocktime ≈6 seconds or greater. The apparent solution would seem to be a sidechain19,20, since they can have their own blocktime, but sidechains don’t inherit the security of their “parent” blockchains and so, for the moment, we’ll deem sidechains as imperfect, but perfectible, solutions21,22 and we’ll come to that later, speaking about Datagen integration with the Polkadot ecosystem.
+This means that any Layer2 built on Ethereum will have a blocktime ≈12 seconds or greater and any (classically defined) Layer2 built on Polkadot or Cosmos will have a blocktime ≈6 seconds or greater. The apparent solution would seem to be a sidechain{19,20}, since they can have their own blocktime, but sidechains don’t inherit the security of their “parent” blockchains and so, for the moment, we’ll deem sidechains as imperfect, but perfectible, solutions{21,22} and we’ll come to that later, speaking about Datagen integration with the Polkadot ecosystem.
 Implementing a cloud computing infrastructure on a general-purpose PoS protocol, with standard data propagation to different nodes determines different problems: 
 
-a)	Economy of scale moved from hardware availability to the availability of coins, tokens or assets to be staked23; 
-b)	Standard data propagation models, where data need to reach many nodes before reaching back the user, are levelling to 0 the latency-time competitive advantage of being geographically close to the user and so are decreasing the incentives to be bare metal or geographically decentralized24;
+a)	Economy of scale moved from hardware availability to the availability of coins, tokens or assets to be staked{23}; 
+b)	Standard data propagation models, where data need to reach many nodes before reaching back the user, are levelling to 0 the latency-time competitive advantage of being geographically close to the user and so are decreasing the incentives to be bare metal or geographically decentralized{24};
 c)	PoS is already moving the initial capital costs of validating firms from purchasing machinery to purchase tokens to be staked. This shift allows validating firms to improve furthermore their economic efficiency by converting the operative costs required to manage independent GPU/CPU machines to the much more easily manageable capital costs required by simply renting computational power at a more predictable capital cost inside centralized server farms. 
 d)	PoS protocols are usually built to validate transactions of digital assets and execution of smart contracts (etc.); they are not customized for cloud computing.
-e)	The relative slowness of the blocktime (≈15-20s for Golem25,26 and ≈6s for Akash27  and Cudos28) limits the use-cases to very low-latency time segments (E.G. image rendering).
+e)	The relative slowness of the blocktime (≈15-20s for Golem{25,26} and ≈6s for Akash{27}  and Cudos{28}) limits the use-cases to very low-latency time segments (E.G. image rendering).
 
 
 
 Standard PoS solutions are often just adding the unnecessary complications of moving processes on-chain, adding at least other three complex layers without solving the centralization pain points.  
-E.G. the overreliance of Akash on Solana validators to source cloud computing, then sourced by Solana’s validators mostly from Google or AWS 28,29,30. 
+E.G. the overreliance of Akash on Solana validators to source cloud computing, then sourced by Solana’s validators mostly from Google or AWS {28,29,30}. 
 
 
 
@@ -129,16 +129,16 @@ So, why not just using a Layer1?
 
 
 Let’s see a concrete example.
-The data infrastructure Oort31 (formerly known as Compute Coin) is an example of good design for a Layer1 based cloud computing infrastructure (at least on -white-paper, since as of late 2022, is still under construction): they can integrate PEKKA, a native Layer that is aggregating cloud computing from different sources, with MCP, a native Layer1 with a highly customized consensus protocol (Proof of Honesty -PoH-) using EntrapNet algorithms to entrust nodes with cross-check phishing tasks. Without analyzing further the consensus protocol of Oort, is clear that, by virtue of being Layer1, Oort can potentially have much greater customization advantages compared to Layer2 networks like Akash or Cudos. 
+The data infrastructure Oort{31} (formerly known as Compute Coin) is an example of good design for a Layer1 based cloud computing infrastructure (at least on -white-paper, since as of late 2022, is still under construction): they can integrate PEKKA, a native Layer that is aggregating cloud computing from different sources, with MCP, a native Layer1 with a highly customized consensus protocol (Proof of Honesty -PoH-) using EntrapNet algorithms to entrust nodes with cross-check phishing tasks. Without analyzing further the consensus protocol of Oort, is clear that, by virtue of being Layer1, Oort can potentially have much greater customization advantages compared to Layer2 networks like Akash or Cudos. 
 So, where is the caveat?
-The problem is clearly stated Compute Coin’s whitepaper32 “Assumption 1. The blockchain network used in the EntrapNet is reliable.”
+The problem is clearly stated Compute Coin’s whitepaper{32} “Assumption 1. The blockchain network used in the EntrapNet is reliable.”
 Reliability assumptions can be dangerous in a 0 Trust perspective.
 
 A Layer 1 must consider many threats which are much more mitigated for a Layer2:
 
 j.	Attacks 51 or similar attacks are easier to be performed against smaller networks; 
 j.	Building a blockchain from scratch implies much more development, much more things can go wrong; 
-j.	Being insular, the developer community is much smaller and so it is less probable to find bugs before malicious actors do. Bitcoin itself had many critical bugs and, without the support of its developer community, many things could have gone wrong33; 
+j.	Being insular, the developer community is much smaller and so it is less probable to find bugs before malicious actors do. Bitcoin itself had many critical bugs and, without the support of its developer community, many things could have gone wrong{33}; 
 j.	Lack of support from other projects, developers, investors, users already involved in existing ecosystems;
 j.	Total freedom can be too much freedom: once you have total freedom on how you want to design a stack and if the team that is working on this is relatively small you have less feedback and less scrutiny from the developer community as so is easier both to underestimate problems or to add malicious code. 
 j.	No shared security features with any underlining protocol; 
@@ -162,8 +162,8 @@ A Layer1 solution seems theoretically viable, but in practice difficult and risk
 
 Why the Decentralized Cloud-Computing Infrastructure that the World needs must be efficient
 
-The Cloud Computing industry (including Cloud Storage and other segments out of our scope), as of 2022, is emitting 2.5-3.7% of Global Carbon emissions34 slightly more than the aviation industry. 
-For this reason alone, it is of the outmost importance for any network setting itself to be part of the solution and not part of the problem, to consider efficiency in its design35. When we couple environmental responsibility with the higher cost that the user is paying when unnecessary computational workloads are performed by a network, this makes the solution of this problem of the most paramount importance.
+The Cloud Computing industry (including Cloud Storage and other segments out of our scope), as of 2022, is emitting 2.5-3.7% of Global Carbon emissions{34} slightly more than the aviation industry. 
+For this reason alone, it is of the outmost importance for any network setting itself to be part of the solution and not part of the problem, to consider efficiency in its design{35}. When we couple environmental responsibility with the higher cost that the user is paying when unnecessary computational workloads are performed by a network, this makes the solution of this problem of the most paramount importance.
 Any decentralized blockchain-based network will lose some computational efficiency (compared to centralized ones) since at least some data will be validated multiple times by validators and stored multiple times by nodes. 
 If this loss of efficiency is light, its environmental cost can be more than offset. 
 
@@ -206,7 +206,7 @@ The Datagen Infrastructure is designed with two separate blockchains with differ
 
 
 The User is requesting cloud computing to the network. 
-Users can be either “solo” requestors, that are at the same time requestors and final users of the received data (e.g. validators of third party PoS blockchains like Polkadot, Binance, Cardano or Cosmos36), or a requestor pooling data to and from final Users in plural locations (e.g. the requestor is a gaming application managing workloads for end Users/ gamers in different areas of the world), therefore “pooled” users.
+Users can be either “solo” requestors, that are at the same time requestors and final users of the received data (e.g. validators of third party PoS blockchains like Polkadot, Binance, Cardano or Cosmos{36}), or a requestor pooling data to and from final Users in plural locations (e.g. the requestor is a gaming application managing workloads for end Users/ gamers in different areas of the world), therefore “pooled” users.
 
 
 To understand better the different functions of the two blockchains, let’s follow the path of the to-be-computed (and later computed) data: 
@@ -296,12 +296,12 @@ This design makes the Datagen network working on principles close to edge comput
 
 What framework is the Datagen network built with and why? 
 
-Datagen Infrastructure is built using Substrate37.
+Datagen Infrastructure is built using Substrate{37}.
 Substrate allows:
 
 1.	modular development; 
 2.	great flexibility; 
-3.	many modular development elements, called “pallets”38) already developed by other teams, which allow us to save on development time; 
+3.	many modular development elements, called “pallets”{38}) already developed by other teams, which allow us to save on development time; 
 4.	with the right development efforts all sort of useful customized pallets can be created; 
 5.	a vibrant community of developers and projects; 
 6.	the creation of blockchains that can upgraded in a forkless way just using consensus features. This can be greatly beneficial long term for a smooth and easy process of improvement of the Datagen infrastructure; 
@@ -314,7 +314,7 @@ There are other elements of the project, like the token and tokenomic smart cont
 
 Why we underlined interrelation between Substrate and the Polkadot ecosystem
 
-While both the Fast Chain and the Heavy Chain could theoretically and effectively be built as two separate standalone substrate-based L1 blockchains, building the Heavy Blockchain as a Polkadot’s (or Kusama’s) Parachain39 can be a great opportunity, since Polkadot/(Kusama)’s Parachains have the same scalability of a sidechain, but inherit the security features of their “parent” blockchain (the Rely Chain of Polkadot/Kusama) as a Layer2 would have. 
+While both the Fast Chain and the Heavy Chain could theoretically and effectively be built as two separate standalone substrate-based L1 blockchains, building the Heavy Blockchain as a Polkadot’s (or Kusama’s) Parachain{39} can be a great opportunity, since Polkadot/(Kusama)’s Parachains have the same scalability of a sidechain, but inherit the security features of their “parent” blockchain (the Rely Chain of Polkadot/Kusama) as a Layer2 would have. 
 Having the best characteristics of both sidechains and classic Layer2, a Parachain can help the Datagen network to have the same security level of a Layer2 and the same scalability of a sidechain. 
 These scalability+security features are achieved thanks to a common characteristic that all Parachains have: Collators.
 Parachains can have customized consensus-protocols, PoW, PoS or whatever, and can select the way in which their validators are validating transactions. 
@@ -330,7 +330,7 @@ The use of a Polkadot (/Kusama) Parachain could be the right combination for the
 
 How the Datagen tokeneconomic and the DataGen (#DG) utility token can aid the Datagen decentralized infrastructure
 
-The mere fact that the Datagen infrastructure is providing cloud computing40 to Web3 applications and to PoS blockchains’ validators is not enough to justify the presence of a native utility token, considering that payments could be performed otherwise using stablecoins, ETH or DOT.
+The mere fact that the Datagen infrastructure is providing cloud computing{40} to Web3 applications and to PoS blockchains’ validators is not enough to justify the presence of a native utility token, considering that payments could be performed otherwise using stablecoins, ETH or DOT.
  
 We need our native token to increase the economic efficiency, caused by the computational inefficiency of the decentralized processes and security features of the infrastructure, and to make the service as affordable as possible for the user. 
 We must consider different factors: some driving prices up and some driving prices down.
@@ -344,7 +344,7 @@ This triggers the right incentives for validators to invest in efficiency improv
 This phenomenon is at the same time cause and effect of a network in which the hardware stack is more decentralized: if all or most of the validators are hosted inside AWS, they will all have a mostly flat capital cost for their operations, since the price charged by AWS and AWS competitors is usually in a certain range. 
 As long as validators are satisfied with this status quo, market price = AWS price + validator’s margin. 
 For most validators could be enough to cash the profit surplus obtained after subtracting the price AWS is charging them, until a single validator realizes that AWS itself is selling the service at a profit and that AWS profit is eating the validator’s own margin. 
-Even more, that single validator realizes that AWS server farm location (for example in the Netherland) is not optimal to win pairings with customers situated in a remote location like Eastern Africa and then realizes that the price of electricity in Tanzania is roughly 1/3 of the electricity price that AWS is paying in the Netherlands41.
+Even more, that single validator realizes that AWS server farm location (for example in the Netherland) is not optimal to win pairings with customers situated in a remote location like Eastern Africa and then realizes that the price of electricity in Tanzania is roughly 1/3 of the electricity price that AWS is paying in the Netherlands{41}.
 
 A rational validator, having realized that: 
 1.	there are paying customers in Eastern Africa; 
@@ -369,7 +369,7 @@ This process doesn’t have the only merit of making the Datagen network more em
 Where the token fits in? 
 
 Competition by itself can help to drive down prices, but this is effective only once the network has grown enough to have a real global competition between hundreds or even thousands of validators and when there is a great number of users, so that there is enough distributed global demand, enough for a validator to set up an independent validating facility, so that he can address the demand of specific regions. 
-Only a grown network, with a reasonably forecastable continued long-term existence and operation, can justify the risk of building from scratch a validating activity somewhere remote, vs just renting from AWS42. 
+Only a grown network, with a reasonably forecastable continued long-term existence and operation, can justify the risk of building from scratch a validating activity somewhere remote, vs just renting from AWS{42}. 
 At the same time, in a network with a still small number of validators, a few of them can easily collude in a cartel to keep prices high; and, since the first Users to try the network will be a small number of applications with a very important strategic reason to do so (let’s imagine validators of a PoS blockchains with incentives from a foundation), they will be willing to pay a very high premium. The high premium will keep validators profitable even when their operating expenses are relatively high, giving no special reason for the validators to innovate and invest so that they can become more competitive price-wise.
 High premiums could attract more validators, but, without organic growth of the demand base, eventual bursts in the supply will make price drop fast enough for validators to abandon the network, leading to the price fast growing again and to cyclic alternance of long high-price phases and short low-price phases, keeping in the network only the above-mentioned users with very strong strategic reasons to do so, accepting both high premiums and price volatility.
 
@@ -415,10 +415,10 @@ All this is coupled with community-owned and community-operated features that ar
 
 Where Datagen can fit in the Metaverse and where off-chain computation can help
 
-For example, let’s imagine how the computational needs could be addressed in the future for a decentralized metaverse43 like Decentraland44 or The Sandbox45, understanding how it is working right now. 
+For example, let’s imagine how the computational needs could be addressed in the future for a decentralized metaverse{43} like Decentraland{44} or The Sandbox{45}, understanding how it is working right now. 
 As of now, you have users interacting with the game environment and with other users through a gaming graphic interface that is processed by centralized providers like AWS, but the game can also act in a way that allows specific front-end interactions with on-chain stuff. 
-For example, when the user’s character is moving in a room in the game, he is interacting with a server that is computing all the complex interactions happening in the online game, between user and user and user and environment, while the user’s device is also making use of a local graphic card to allow him to “see” all the interactions. In the case of the Sandbox the server is outright hosted by AWS 46,47, while, in the case of Decentraland you have a slightly more complex and decentralized system in which you have different server providers, called catalysts, that, while reducing centralization risks because of their redundant number, are, in last resort, presumably hosted by AWS 48,49,50. 
-Despite the game being branded Web3, none of the interactions that the user’s character is doing are processed on-chain. Only when the user interacts with a special subset of data (for example, he walks his character in front of what he sees rendered as treasure chest) he triggers a set of instructions (that in Decentraland are called “Scene blockchain operations”51) that, through smart contracts, are allowing an interaction with the user’s wallet (that he must had previously connected and kept open with a frontend implementation like MetaMask52),  allowing him to collect a token reward (for having opened the treasure chest).
+For example, when the user’s character is moving in a room in the game, he is interacting with a server that is computing all the complex interactions happening in the online game, between user and user and user and environment, while the user’s device is also making use of a local graphic card to allow him to “see” all the interactions. In the case of the Sandbox the server is outright hosted by AWS{46,47}, while, in the case of Decentraland you have a slightly more complex and decentralized system in which you have different server providers, called catalysts, that, while reducing centralization risks because of their redundant number, are, in last resort, presumably hosted by AWS {48,49,50}. 
+Despite the game being branded Web3, none of the interactions that the user’s character is doing are processed on-chain. Only when the user interacts with a special subset of data (for example, he walks his character in front of what he sees rendered as treasure chest) he triggers a set of instructions (that in Decentraland are called “Scene blockchain operations”{51}) that, through smart contracts, are allowing an interaction with the user’s wallet (that he must had previously connected and kept open with a frontend implementation like MetaMask{52}),  allowing him to collect a token reward (for having opened the treasure chest).
 It is understandable that a decentralized game is not running on-chain because:
  
 a.	No one even attempted to provide cloud computing on-chain in the scale required to operate an online multiplayer metaverse; 
@@ -432,10 +432,10 @@ But, as a decentralization conscious consumer, do you really think that the owne
 Maybe, for the stage of development at which decentralized metaverse is right now, there aren’t enough valuable things to be kept away from the potential misdoings of centralized cloud computing: after all, who cares if my LegolasJoe character is visiting the parcel of land 17th or 19th!? Should I even care if AWS is processing that? Probably not. 
 But what about the moment in which the metaverse will be pervasive and advanced enough that you will be able to have a remote consultation with a mental health professional in the metaverse, should I care? Should you care if you are speaking of your political views with friends you met in the metaverse? Should you care when sensitive business information are all flowing in the virtual meetings happening in the metaverse?
 Someone may say, “No, of course I’m quite happy to deliver all this information to a for-profit corporation that really cares of my wellbeing”.
-For those with this opinion will probably don’t care enough to even on-board decentralized metaverses and will use spend their metaverse time in centralized metaverses, operated by companies like Meta53 (former Facebook), whose not exactly uplifting track record in terms of transparency in their data management policies, if translated in the Metaverse context could lead to both pervasive surveillance and even to subtle perceptive distortions with the aim of achieving behavioral modifications54.
+For those with this opinion will probably don’t care enough to even on-board decentralized metaverses and will use spend their metaverse time in centralized metaverses, operated by companies like Meta{53} (former Facebook), whose not exactly uplifting track record in terms of transparency in their data management policies, if translated in the Metaverse context could lead to both pervasive surveillance and even to subtle perceptive distortions with the aim of achieving behavioral modifications{54}.
 But what about those who entrust their metaverse-time to decentralized options to stay safe from the reach of centralized corporations and that are choosing Web3 over Web2 because they think thatWeb3 is more in line with their ideas of liberty and emancipation? It isn’t going to be limiting and disappointing for them if the only function of “decentralized” metaverses is the decentralization of digital ownership, while all the rest is processed by a server farm owned by AWS or Google? Is this going to make users feel safer than Meta’s metaverse? Is it safer? Won’t this risk that the increasingly conscious decentralization consumers will end up being disillusioned by the marginal role of decentralization and will simply abandon Web3 branded metaverses in favor of flashier metaverses built by Meta or other centralized corporations?
 Let’s see how this massive amount of data produced by a decentralized metaverse could be processed in a safer way.
-Maybe on-chain solutions like Datagen will be impractical to keep safe the computation of the whole huge number of eye-to-eye interactions happening in the metaverse, given the sheer amount of data and the need for its affordability and speed. This is where off-chain (blockchain based) solutions, still safer than AWS, like Phala55, for instance, can come to rescue, going in places that are more impervious to on-chain based solutions, simply aggregating different off-chain sources, and keeping them safe with encryptions and smart contracts. 
+Maybe on-chain solutions like Datagen will be impractical to keep safe the computation of the whole huge number of eye-to-eye interactions happening in the metaverse, given the sheer amount of data and the need for its affordability and speed. This is where off-chain (blockchain based) solutions, still safer than AWS, like Phala{55}, for instance, can come to rescue, going in places that are more impervious to on-chain based solutions, simply aggregating different off-chain sources, and keeping them safe with encryptions and smart contracts. 
 But this could be not enough for particularly sensitive data: at the same time, you probably ideally want that the most important stuff is computed on-chain, in a safer way. 
 
 
@@ -453,15 +453,15 @@ For example, you could have a tripartite situation in which:
 2.	more sensitive interactions (for example conversations with other users or data that users themselves are classifying are sensitive -something like: anything my metaverse character writes or draws in this whiteboard is sensitive) can be computed by a separate -on-chain- provider or, alternatively, an on-chain cloud computing provider could be entrusted in computing the data necessary to generate and maintain a tamper-proof encryption, so that only those with an appropriate key will be able to decipher in a human eye readable those specific interactions happening in the metaverse. 
 3.	digital asset ownership transfer is registered on-chain with a mechanism similarly to the one currently used by Decentraland in Scene blockchain operations.
 
-Maybe on-chain computation with the Datagen network will become so efficient and fast that it would be able to do all by itself, but, as history is teaching us, the Internet is becoming an increasingly complex animal56 with different layers interacting in very complex ways57, and the Metaverse will equally be layered, probably in ways that are still difficult to grasp and it’s more probable that the Datagen network will fill a only specific niche in the infrastructure layer58 of the metaverse itself, maybe in a way that is different from the one imagined by the above paragraph.
+Maybe on-chain computation with the Datagen network will become so efficient and fast that it would be able to do all by itself, but, as history is teaching us, the Internet is becoming an increasingly complex animal{56} with different layers interacting in very complex ways{57}, and the Metaverse will equally be layered, probably in ways that are still difficult to grasp and it’s more probable that the Datagen network will fill a only specific niche in the infrastructure layer{58} of the metaverse itself, maybe in a way that is different from the one imagined by the above paragraph.
 
 In the next 10 to 30 years the cloud computing demand of metaverse (and gaming) will grow exponentially, a certain percentage of it will be decentralized metaverse (and decentralized gaming) and the blockchain-based infrastructures with the most interesting premium qualities will claim a chunk of it: the Datagen network has the right characteristics to be in the winning pool.
 
 
-Where Datagen can help PoS blockchains to stay decentralized59 
+Where Datagen can help PoS blockchains to stay decentralized{59} 
 
-Hetzner, along with centralized cloud services providers Equinix and Amazon Web Services (AWS)60, hosted a whopping 65% of Solana’s stake in August 2022. When, in late October 2022, Hetzner (on which ≈40% of Solana validators were hosted) unilateral and suddenly banned61 ≈1K Solana Validators, the event sparked a discussion62 in the blockchain community and increased the awareness that an overwhelming concentration of validating activity in the hands of few, centralized providers is a strong strategic risk.
-Solana is not alone in this dangerous vulnerability: Polkadot validator set-up63,64 currently supports only Google Cloud, AWS, Microsoft Azure and Packet. BNB Chain Validator65  location is not disclosed66, but different public statements of Binance’s core team members67 revealed partnerships between Binance and Google Cloud to host validators of the BNB chain, suggesting that a strong centralization process is in act, with Google as main provider, at least for institutional BNB nodes. Coinbase Cloud68, a foundamental piece of infrastructure for the crypto industry, where are kept huge pools of 25+ major cryptocurrencies, is practically running solely on AWS and AWS’ tools69. Figment network70, one of the main infrastructure providers for validators, nodes and staking pools is running mostly on AWS, Google Cloud and Digital Ocean71. 53% 72 of Ethereum Mainnet nodes73 are hosted by AWS and, with the Ethereum Merge in Ethereum 2.0, this could become a single point of failure74, with AWS and other few providers75 able to shut down the Ethereum network at will. Cardano76 seems less vulnerable77,78 than his peers, in this regard, since its validators are “just” 19.5% hosted by AWS, but the percentage balloons to a staggering 53.6% once you factor the 5 biggest providers (in order AWS, Digital Ocean, Hetzner, Contabo gmbH and Google Cloud), revealing, to a closer look79, that not even Cardano is safe. 
+Hetzner, along with centralized cloud services providers Equinix and Amazon Web Services (AWS){60}, hosted a whopping 65% of Solana’s stake in August 2022. When, in late October 2022, Hetzner (on which ≈40% of Solana validators were hosted) unilateral and suddenly banned{61} ≈1K Solana Validators, the event sparked a discussion{62} in the blockchain community and increased the awareness that an overwhelming concentration of validating activity in the hands of few, centralized providers is a strong strategic risk.
+Solana is not alone in this dangerous vulnerability: Polkadot validator set-up{63,64} currently supports only Google Cloud, AWS, Microsoft Azure and Packet. BNB Chain Validator{65} location is not disclosed66, but different public statements of Binance’s core team members{67} revealed partnerships between Binance and Google Cloud to host validators of the BNB chain, suggesting that a strong centralization process is in act, with Google as main provider, at least for institutional BNB nodes. Coinbase Cloud{68}, a foundamental piece of infrastructure for the crypto industry, where are kept huge pools of 25+ major cryptocurrencies, is practically running solely on AWS and AWS’ tools{69}. Figment network{70}, one of the main infrastructure providers for validators, nodes and staking pools is running mostly on AWS, Google Cloud and Digital Ocean{71}. 53% {72} of Ethereum Mainnet nodes{73} are hosted by AWS and, with the Ethereum Merge in Ethereum 2.0, this could become a single point of failure{74}, with AWS and other few providers{75} able to shut down the Ethereum network at will. Cardano{76} seems less vulnerable{77,78} than his peers, in this regard, since its validators are “just” 19.5% hosted by AWS, but the percentage balloons to a staggering 53.6% once you factor the 5 biggest providers (in order AWS, Digital Ocean, Hetzner, Contabo gmbH and Google Cloud), revealing, to a closer look{79}, that not even Cardano is safe. 
 
 
 The Datagen network could become the network of choice to source cloud computing for many PoS blockchains  (in particular once Datagen is  interoperable with IPFS and/or Filecoin for storage functions), being the only decentralized cloud computing player that is putting so much attention in designing proper incentives to decentralize its network, instead than being just another additional layer running over AWS, while Datagen can keep efficiency levels just slightly lower the ones of centralized providers.
@@ -477,18 +477,18 @@ All DeFi applications based or reliant on PoS protocols are at risk of failure b
 
 Where the Datagen network could help privacy-friendly search engines to be more decentralized
 
-Privacy friendly search engines like DuckDuckGo, Mojeek, Qwant, Swisscows, etc… , but even the Web3-based Brave Browser, are either running on AWS / Azure (DuckDuckGo, Qwant80, Brave81) or self-hosting everything with great efforts (Swisscows82, Mojeek83). A trustless, secure decentralized computational network could greatly benefit them in sourcing cloud computing in a way that is at the same time scalable and respectful of their mission.
+Privacy friendly search engines like DuckDuckGo, Mojeek, Qwant, Swisscows, etc… , but even the Web3-based Brave Browser, are either running on AWS / Azure (DuckDuckGo, Qwant{80}, Brave{81}) or self-hosting everything with great efforts (Swisscows{82}, Mojeek{83}). A trustless, secure decentralized computational network could greatly benefit them in sourcing cloud computing in a way that is at the same time scalable and respectful of their mission.
 
 
 
 How the Datagen infrastructure can benefit from the image rendering industry
 
-Image rendering represents one of the cloud computing industry segments more heavily targeted by peer decentralized cloud computing projects. The first use-case that the blockchain computation veteran Golem Network tried to tackle has been rendering and another major project is so focused on the image rendering segment that is called Render Network84. 
+Image rendering represents one of the cloud computing industry segments more heavily targeted by peer decentralized cloud computing projects. The first use-case that the blockchain computation veteran Golem Network tried to tackle has been rendering and another major project is so focused on the image rendering segment that is called Render Network{84}. 
 
 Why?
 
-1)	Image rendering is a big and fast-growing segment of the cloud computing industry85; 
-2)	Image rendering is processed mostly with GPU, and GPU supply can be easily found both in gamers’ hardware (exploited by opportunistic networks like Massive Computing86) and in ETH -and other POW protocols- professional miners’ hardware); 
+1)	Image rendering is a big and fast-growing segment of the cloud computing industry{85}; 
+2)	Image rendering is processed mostly with GPU, and GPU supply can be easily found both in gamers’ hardware (exploited by opportunistic networks like Massive Computing{86}) and in ETH -and other POW protocols- professional miners’ hardware); 
 3)	Image rendering is really forgiving in terms of latency time requirements (for a 3D artist is ok to wait seconds and even a couple of minutes to see an image rendered) and this makes the rendering segment particularly suitable for the projects that are struggling with technical weak latency performances, making it a low-hanging fruit. 
 4)	For the same reasons, image rendering is a segment in which the Datagen network can easily become a relatively relevant player, given the easier technical requirements, but also a segment over which many birds are already flying and competing, making it for Datagen a welcome additional use-case, but one in which Datagen can hardly become a dominant player.
 
@@ -587,7 +587,8 @@ Sources
 74https://hackernoon.com/ethereum-20-staking-on-aws-cloud-staking-matters
 75https://cryptoslate.com/data-center-operator-hosting-17-of-ethereums-nodes-says-staking-is-not-permitted/
 76https://www.coinbase.com/it/cloud/discover/protocol-guides/guide-to-cardano
-77 https://medium.com/poapool/cardano-da-holders-strategy-how-to-choose-stakepools-e2946f87b1f8 78https://developers.cardano.org/docs/operate-a-stake-pool/ 
+77 https://medium.com/poapool/cardano-da-holders-strategy-how-to-choose-stakepools-e2946f87b1f8 
+78https://developers.cardano.org/docs/operate-a-stake-pool/ 
 79https://datastudio.google.com/reporting/3136c55b-635e-4f46-8e4b-b8ab54f2d460/page/p_zgx5s2okoc
 80https://news.microsoft.com/europe/features/qwant-and-microsoft-announce-an-exclusive-partnership-for-a-unique-internet-research-experience/#:~:text=Microsoft%2C%20for%20its%20part%2C%20provides,services%20and%20Bing's%20algorithmic%20research
 81https://himalayas.app/companies/brave/tech-stack
