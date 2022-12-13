@@ -537,7 +537,7 @@ Sources
 23https://medium.com/@gertrammeloo/the-economics-of-the-proof-of-stake-consensus-algorithm-e28adf63e9db 
 24https://arxiv.org/pdf/1809.00455.pdf 
 25https://handbook.golem.network/ 
-2626 https://stats.golem.network 
+26 https://stats.golem.network 
 27https://docs.akash.network/
 28https://docs.cudos.org/docs/learn/introduction/overview 
 29https://www.cryptoninjas.net/2020/03/13/decentralized-cloud-akash-interoperating-with-solana-for-hyper-performance-smart-contracts/
