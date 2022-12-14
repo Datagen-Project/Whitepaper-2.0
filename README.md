@@ -18,7 +18,7 @@ echo "# Whitepaper-2.0" >> README.md
 
 
 
-##Whitepaper 2.0##
+**Whitepaper 2.0**
 
 
 
