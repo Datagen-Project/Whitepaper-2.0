@@ -9,7 +9,7 @@ echo "# Whitepaper-2.0" >> README.md
 
 
 
-#Datagen Project
+## Datagen Project
 
 
 
