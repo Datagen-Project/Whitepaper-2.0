@@ -61,7 +61,7 @@ Cloud Storage needs could be addressed separately, notably with the use of APIs 
 
 
 
-**Why the World needs a Decentralized Cloud Computing Infrastructure
+**Why the World needs a Decentralized Cloud Computing Infrastructure**
 
 Web3 flourished to correct the shortcomings of centralized Web2, exactly like Crypto flourished to correct the shortcomings of centralized money and DeFi the mistakes of centralized finance {6,7}.
 When Web3, Crypto or DeFi projects resort to use centralized tools for their critically important inner works they are undermining not only the ideal decentralization principles that sparked the Web3 revolution, but also their products’ security, resiliency, transparency{8}. 
