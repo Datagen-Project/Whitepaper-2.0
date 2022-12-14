@@ -73,7 +73,7 @@ But, before, we need to explain what is already there and what the Datagen infra
 
 
 
-**Why the Decentralized Cloud Computing Infrastructure that the World needs can’t be off-chain
+**Why the Decentralized Cloud Computing Infrastructure that the World needs can’t be off-chain**
 
 Blockchain technology was not originally created to perform cloud computing efficiently{9}. 
 Blockchain was created to reliably store immutable data, which are impossible to falsify and not reliant on opaque centralized authorities. 
