@@ -43,8 +43,9 @@ echo "# Whitepaper-2.0" >> README.md
 
 
 
-Premise: The Original Whitepaper{1} offered us a first glimpse into the project, declaredly without entering too much in technical detail. Knowledge is a journey and the“DATAGEN WHITEPAPER 2.0” is bringing the Datagen journey to the next stage. 
-Blockchains store immutable data, but the “shape” of the same Blockchains evolve while they are bug-fixed, improved or while they migrate to a totally new consensus protocol. 
+**Premise:** *The Original Whitepaper{1} offered us a first glimpse into the project, declaredly without entering too much in technical detail. Knowledge is a journey and the“DATAGEN WHITEPAPER 2.0” is bringing the Datagen journey to the next stage. 
+Blockchains store immutable data, but the “shape” of the same Blockchains evolve while they are bug-fixed, improved or while they migrate to a totally new consensus protocol.* 
+
 The Datagen Whitepaper 2.0 expands, deletes, and emends ideas previously expressed in the Original Whitepaper: a greater understanding of the best technology solutions, the evolution of the market and of the competitive landscape and simply all the knowledge accumulated in the journey from the writing of the Original Whitepaper ingenerated changes in the development path of the Datagen infrastructure that must also be reflected in the Whitepaper.
 The Whitepaper 2.0 is not the final destination for Datagen, but just another stage of its evolution, since the destiny of all alive beings (be they biologically or intellectually alive) is to evolve or die.
 The Theseus’ Paradox{2} is a thought experiment that raises the question of whether an object that has had all its components replaced remains fundamentally the same object. The original paradox wondered whether replacing, one by one, all the components of a ship the resulting ship still had the same identity of the original one. 
