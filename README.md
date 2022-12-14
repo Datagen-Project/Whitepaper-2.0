@@ -184,7 +184,7 @@ At the same time, Datagen must keep to the minimum the amount of data which is h
 
 
 
-To explain it, let’s give a closer look at the Datagen architecture.
+To explain it, let’s give a **closer look at the Datagen architecture.**
 
 
 ![image](https://user-images.githubusercontent.com/88165605/207418738-1a8e0fc1-8d70-43e6-a187-9af6c81d5e07.png)
@@ -200,11 +200,11 @@ To explain it, let’s give a closer look at the Datagen architecture.
 
 
 
-The Datagen Infrastructure is designed with two separate blockchains with different functions: 
+The **Datagen Infrastructure** is designed with **two separate blockchains with different functions:** 
 
-•	the Fast Blockchain’s (in blue), validators are also the providers of Cloud Computing in the network
+•	the **Fast Blockchain**'s (in blue) validators are also the providers of Cloud Computing in the network
 
-•	the Heavy Blockchain (in pale red), is a Proof-of-Stake blockchain that manages in the most computationally-efficient way possible some functions indispensable for a secure blockchain 
+•	the **Heavy Blockchain** (in pale red), is a Proof-of-Stake blockchain that manages in the most computationally-efficient way possible some functions indispensable for a secure blockchain 
 
 
 The User is requesting cloud computing to the network. 
@@ -296,7 +296,7 @@ This design makes the Datagen network working on principles close to edge comput
 
 
 
-What framework is the Datagen network built with and why? 
+**What framework is the Datagen network built with and why?** 
 
 Datagen Infrastructure is built using Substrate{37}.
 Substrate allows:
@@ -314,7 +314,7 @@ There are other elements of the project, like the token and tokenomic smart cont
 
 
 
-Why we underlined interrelation between Substrate and the Polkadot ecosystem
+**Why we underlined interrelation between Substrate and the Polkadot ecosystem**
 
 While both the Fast Chain and the Heavy Chain could theoretically and effectively be built as two separate standalone substrate-based L1 blockchains, building the Heavy Blockchain as a Polkadot’s (or Kusama’s) Parachain{39} can be a great opportunity, since Polkadot/(Kusama)’s Parachains have the same scalability of a sidechain, but inherit the security features of their “parent” blockchain (the Rely Chain of Polkadot/Kusama) as a Layer2 would have. 
 Having the best characteristics of both sidechains and classic Layer2, a Parachain can help the Datagen network to have the same security level of a Layer2 and the same scalability of a sidechain. 
@@ -330,7 +330,7 @@ The use of a Polkadot (/Kusama) Parachain could be the right combination for the
 
 
 
-How the Datagen tokeneconomic and the DataGen (#DG) utility token can aid the Datagen decentralized infrastructure
+**How the Datagen tokeneconomic and the DataGen (#DG) utility token can aid the Datagen decentralized infrastructure**
 
 The mere fact that the Datagen infrastructure is providing cloud computing{40} to Web3 applications and to PoS blockchains’ validators is not enough to justify the presence of a native utility token, considering that payments could be performed otherwise using stablecoins, ETH or DOT.
  
@@ -368,7 +368,7 @@ This process doesn’t have the only merit of making the Datagen network more em
 
 
 
-Where the token fits in? 
+**Where the token fits in?** 
 
 Competition by itself can help to drive down prices, but this is effective only once the network has grown enough to have a real global competition between hundreds or even thousands of validators and when there is a great number of users, so that there is enough distributed global demand, enough for a validator to set up an independent validating facility, so that he can address the demand of specific regions. 
 Only a grown network, with a reasonably forecastable continued long-term existence and operation, can justify the risk of building from scratch a validating activity somewhere remote, vs just renting from AWS{42}. 
@@ -415,7 +415,7 @@ All this is coupled with community-owned and community-operated features that ar
 
 
 
-Where Datagen can fit in the Metaverse and where off-chain computation can help
+**Where Datagen can fit in the Metaverse and where off-chain computation can help**
 
 For example, let’s imagine how the computational needs could be addressed in the future for a decentralized metaverse{43} like Decentraland{44} or The Sandbox{45}, understanding how it is working right now. 
 As of now, you have users interacting with the game environment and with other users through a gaming graphic interface that is processed by centralized providers like AWS, but the game can also act in a way that allows specific front-end interactions with on-chain stuff. 
@@ -442,7 +442,7 @@ But this could be not enough for particularly sensitive data: at the same time, 
 
 
 
-The future of Metaverse with Datagen
+**The future of Metaverse with Datagen**
 
 It’s quite possible that the future will look like a place where on-chain and off-chain computation are working in unexpected synergic ways. 
 
@@ -460,7 +460,7 @@ Maybe on-chain computation with the Datagen network will become so efficient and
 In the next 10 to 30 years the cloud computing demand of metaverse (and gaming) will grow exponentially, a certain percentage of it will be decentralized metaverse (and decentralized gaming) and the blockchain-based infrastructures with the most interesting premium qualities will claim a chunk of it: the Datagen network has the right characteristics to be in the winning pool.
 
 
-Where Datagen can help PoS blockchains to stay decentralized{59} 
+**Where Datagen can help PoS blockchains to stay decentralized{59}** 
 
 Hetzner, along with centralized cloud services providers Equinix and Amazon Web Services (AWS){60}, hosted a whopping 65% of Solana’s stake in August 2022. When, in late October 2022, Hetzner (on which ≈40% of Solana validators were hosted) unilateral and suddenly banned{61} ≈1K Solana Validators, the event sparked a discussion{62} in the blockchain community and increased the awareness that an overwhelming concentration of validating activity in the hands of few, centralized providers is a strong strategic risk.
 Solana is not alone in this dangerous vulnerability: Polkadot validator set-up{63,64} currently supports only Google Cloud, AWS, Microsoft Azure and Packet. BNB Chain Validator{65} location is not disclosed66, but different public statements of Binance’s core team members{67} revealed partnerships between Binance and Google Cloud to host validators of the BNB chain, suggesting that a strong centralization process is in act, with Google as main provider, at least for institutional BNB nodes. Coinbase Cloud{68}, a foundamental piece of infrastructure for the crypto industry, where are kept huge pools of 25+ major cryptocurrencies, is practically running solely on AWS and AWS’ tools{69}. Figment network{70}, one of the main infrastructure providers for validators, nodes and staking pools is running mostly on AWS, Google Cloud and Digital Ocean{71}. 53% {72} of Ethereum Mainnet nodes{73} are hosted by AWS and, with the Ethereum Merge in Ethereum 2.0, this could become a single point of failure{74}, with AWS and other few providers{75} able to shut down the Ethereum network at will. Cardano{76} seems less vulnerable{77,78} than his peers, in this regard, since its validators are “just” 19.5% hosted by AWS, but the percentage balloons to a staggering 53.6% once you factor the 5 biggest providers (in order AWS, Digital Ocean, Hetzner, Contabo gmbH and Google Cloud), revealing, to a closer look{79}, that not even Cardano is safe. 
@@ -471,19 +471,19 @@ The Datagen network could become the network of choice to source cloud computing
 
 
 
-Where Datagen can help DeFi to stay decentralized
+**Where Datagen can help DeFi to stay decentralized**
 
 All DeFi applications based or reliant on PoS protocols are at risk of failure because of excessive centralization potentially leading to single points of failure due to censorship, etc… The Datagen network can help them to stay decentralized in the same way in which it can help PoS blockchains. In the same fashion, the Datagen network can be a more resilient cloud computing provider for off-chain (but Web3 related) DeFi applications.
 
 
 
-Where the Datagen network could help privacy-friendly search engines to be more decentralized
+**Where the Datagen network could help privacy-friendly search engines to be more decentralized**
 
 Privacy friendly search engines like DuckDuckGo, Mojeek, Qwant, Swisscows, etc… , but even the Web3-based Brave Browser, are either running on AWS / Azure (DuckDuckGo, Qwant{80}, Brave{81}) or self-hosting everything with great efforts (Swisscows{82}, Mojeek{83}). A trustless, secure decentralized computational network could greatly benefit them in sourcing cloud computing in a way that is at the same time scalable and respectful of their mission.
 
 
 
-How the Datagen infrastructure can benefit from the image rendering industry
+**How the Datagen infrastructure can benefit from the image rendering industry**
 
 Image rendering represents one of the cloud computing industry segments more heavily targeted by peer decentralized cloud computing projects. The first use-case that the blockchain computation veteran Golem Network tried to tackle has been rendering and another major project is so focused on the image rendering segment that is called Render Network{84}. 
 
@@ -497,7 +497,7 @@ Why?
 
 
 
-Relationship with Web2 applications
+***Relationship with Web2 applications**
 
 The Datagen network is born in the context of blockchain and Web3, but there are plenty of Web2 applications for which the Datagen network can offer huge plus, compared to traditional centralized providers: let’s think of NGOs online activities, always at risk of censorship in non-democratic countries, or machine learning startups, in constant need of reliable, uptime improved and cheaper GPU computational power for their AI.
 
@@ -506,7 +506,7 @@ The Datagen network will be more useful for specific segments and less useful fo
 
 
 
-Paraphrasing “The Dark Knight” The Datagen Infrastructure may not be the Decentralized Cloud Computing Infrastructure that the World deserves, but the one it needs now.
+Paraphrasing “The Dark Knight” **The Datagen Infrastructure may not be the Decentralized Cloud Computing Infrastructure that the World deserves, but the one it needs now.**
 
 By choice we didn’t include many coding functions in the Whitepaper 2.0, since code can always change, be improved, or updated. To follow the evolving development, visit the Project’s GitHub https://github.com/Datagen-Project and feel free to contact us if you want to contribute.
 
