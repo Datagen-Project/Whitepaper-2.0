@@ -54,14 +54,14 @@ Similarly, in the present Datagen Whitepaper 2.0 many ideas will replace those e
 This is not a betrayal of the vision expressed in the Original Whitepaper, but its fulfillment, exactly like in the Theseus Ship: the wooden planks devoured by the salty water, or the ropes consumed by their incessant use must be replaced for the ship to fulfill its purpose of being a functional vessel. In the same way, to fulfill the purpose of the Datagen infrastructure, which is to fuel the Data-needs of the Web3 world, the Datagen Whitepaper needs a metanoia towards a more concise, technically precise, and less byzantine document revolving around an infrastructure for GPU/CPU computation, to mirror the direction that the Development of the Datagen Project is undertaking: the “Datagen Whitepaper” needs to evolve into the “Datagen Whitepaper 2.0”*
 
 
-Note: The Datagen Whitepaper is analyzing the need for and characteristics of an ideal decentralized network for GPU/CPU Cloud Computing - Not for Cloud Storage{3} 
+**Note: The Datagen Whitepaper is analyzing the need for and characteristics of an ideal decentralized network for GPU/CPU Cloud Computing - Not for Cloud Storage{3}**
 Cloud Computing and Cloud Storage networks share many core features and many assumptions made for decentralized GPU/CPU Cloud Computing could be true even for decentralized Cloud Storage. However, many different factors, which are not the subject of this whitepaper (such as different hardware and software requirements), entail that, to be performed in economically efficient ways, both GPU/CPU Cloud Computing and Cloud Storage require separate architectures. That’s why, in continuity with other existing solutions, in the present whitepaper we only analyze the need and the characteristics of a GPU/CPU Cloud Computing network.
 Cloud Storage needs could be addressed separately, notably with the use of APIs or other solutions to connect to exisiting cloud storage stacks or protocols (e.g. Filecoin{4} or IPFS{5}).
 
 
 
 
-Why the World needs a Decentralized Cloud Computing Infrastructure
+**Why the World needs a Decentralized Cloud Computing Infrastructure
 
 Web3 flourished to correct the shortcomings of centralized Web2, exactly like Crypto flourished to correct the shortcomings of centralized money and DeFi the mistakes of centralized finance {6,7}.
 When Web3, Crypto or DeFi projects resort to use centralized tools for their critically important inner works they are undermining not only the ideal decentralization principles that sparked the Web3 revolution, but also their products’ security, resiliency, transparency{8}. 
@@ -73,7 +73,7 @@ But, before, we need to explain what is already there and what the Datagen infra
 
 
 
-Why the Decentralized Cloud Computing Infrastructure that the World needs can’t be off-chain
+**Why the Decentralized Cloud Computing Infrastructure that the World needs can’t be off-chain
 
 Blockchain technology was not originally created to perform cloud computing efficiently{9}. 
 Blockchain was created to reliably store immutable data, which are impossible to falsify and not reliant on opaque centralized authorities. 
@@ -95,7 +95,7 @@ Off-chain solutions should be used only when viable on-chain solutions are not a
 
 
 
-Why the Decentralized Cloud Computing Infrastructure that the World needs can’t be built using a general purpose Layer2 or a general purpose PoS consensus protocol
+**Why the Decentralized Cloud Computing Infrastructure that the World needs can’t be built using a general purpose Layer2 or a general purpose PoS consensus protocol
 
 Being Layer2 has benefits: 
 
@@ -121,7 +121,7 @@ E.G. the overreliance of Akash on Solana validators to source cloud computing, t
 
 
 
-Why the Decentralized Cloud Computing Infrastructure that World needs could just be a Layer1, but it’s a Risky Bet
+**Why the Decentralized Cloud Computing Infrastructure that World needs could just be a Layer1, but it’s a Risky Bet
 
 Based on all that we said before, the simpler solution to all the problems assessed before could simply seem to be a properly designed standalone Layer1: when designing a Layer1 you can customize many parameters, including blocktime, runtime, consensus protocol and you can even design proper incentives so that some validators can choose to be independent from centralized server farms without being strangled. 
 
@@ -150,7 +150,7 @@ j.	No shared validating resources with any underlining protocol.
 While the problems above seems really vexing for Layer1 developed from scratch, a much less customized Layer 1, for instance copy-catting the source code of an existing EVM compatible blockchain, would imply a smaller chance to incur in those vexing risks, but won’t allow for the customization features for which you want to use a Layer1 in the first place.
 
 
-A Layer1 solution seems theoretically viable, but in practice difficult and risky to be implemented.
+**A Layer1 solution seems theoretically viable, but in practice difficult and risky to be implemented.
 
 ![image](https://user-images.githubusercontent.com/88165605/207418261-06548bef-40b6-408e-9515-392239e6e8b2.png)
 
@@ -162,7 +162,7 @@ A Layer1 solution seems theoretically viable, but in practice difficult and risk
 
 
 
-Why the Decentralized Cloud-Computing Infrastructure that the World needs must be efficient
+**Why the Decentralized Cloud-Computing Infrastructure that the World needs must be efficient
 
 The Cloud Computing industry (including Cloud Storage and other segments out of our scope), as of 2022, is emitting 2.5-3.7% of Global Carbon emissions{34} slightly more than the aviation industry. 
 For this reason alone, it is of the outmost importance for any network setting itself to be part of the solution and not part of the problem, to consider efficiency in its design{35}. When we couple environmental responsibility with the higher cost that the user is paying when unnecessary computational workloads are performed by a network, this makes the solution of this problem of the most paramount importance.
