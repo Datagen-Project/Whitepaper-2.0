@@ -95,7 +95,7 @@ Off-chain solutions should be used only when viable on-chain solutions are not a
 
 
 
-**Why the Decentralized Cloud Computing Infrastructure that the World needs can’t be built using a general purpose Layer2 or a general purpose PoS consensus protocol
+**Why the Decentralized Cloud Computing Infrastructure that the World needs can’t be built using a general purpose Layer2 or a general purpose PoS consensus protocol**
 
 Being Layer2 has benefits: 
 
@@ -121,7 +121,7 @@ E.G. the overreliance of Akash on Solana validators to source cloud computing, t
 
 
 
-**Why the Decentralized Cloud Computing Infrastructure that World needs could just be a Layer1, but it’s a Risky Bet
+**Why the Decentralized Cloud Computing Infrastructure that World needs could just be a Layer1, but it’s a Risky Bet**
 
 Based on all that we said before, the simpler solution to all the problems assessed before could simply seem to be a properly designed standalone Layer1: when designing a Layer1 you can customize many parameters, including blocktime, runtime, consensus protocol and you can even design proper incentives so that some validators can choose to be independent from centralized server farms without being strangled. 
 
@@ -150,7 +150,7 @@ j.	No shared validating resources with any underlining protocol.
 While the problems above seems really vexing for Layer1 developed from scratch, a much less customized Layer 1, for instance copy-catting the source code of an existing EVM compatible blockchain, would imply a smaller chance to incur in those vexing risks, but won’t allow for the customization features for which you want to use a Layer1 in the first place.
 
 
-**A Layer1 solution seems theoretically viable, but in practice difficult and risky to be implemented.
+**A Layer1 solution seems theoretically viable, but in practice difficult and risky to be implemented.**
 
 ![image](https://user-images.githubusercontent.com/88165605/207418261-06548bef-40b6-408e-9515-392239e6e8b2.png)
 
@@ -162,7 +162,7 @@ While the problems above seems really vexing for Layer1 developed from scratch, 
 
 
 
-**Why the Decentralized Cloud-Computing Infrastructure that the World needs must be efficient
+**Why the Decentralized Cloud-Computing Infrastructure that the World needs must be efficient**
 
 The Cloud Computing industry (including Cloud Storage and other segments out of our scope), as of 2022, is emitting 2.5-3.7% of Global Carbon emissions{34} slightly more than the aviation industry. 
 For this reason alone, it is of the outmost importance for any network setting itself to be part of the solution and not part of the problem, to consider efficiency in its design{35}. When we couple environmental responsibility with the higher cost that the user is paying when unnecessary computational workloads are performed by a network, this makes the solution of this problem of the most paramount importance.
