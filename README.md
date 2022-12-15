@@ -138,7 +138,7 @@ So, why not just using a Layer1?
 Let’s see a concrete example.
 The data infrastructure Oort{31} (formerly known as Compute Coin) is an example of good design for a Layer1 based Cloud Computing infrastructure (at least on -white-paper, since as of late 2022, it is still under construction): they can integrate PEKKA, a native Layer that is aggregating cloud computing from different sources, with MCP, a native Layer1 with a highly customized consensus protocol (Proof of Honesty -PoH-) using EntrapNet algorithms to entrust nodes with cross-check phishing tasks. Without analyzing further the consensus protocol of Oort, it is clear that, by virtue of being a Layer1, Oort can potentially have much greater customization advantages compared to Layer2 networks like Akash or Cudos. 
 So, where is the caveat?
-The problem is clearly stated in the Compute Coin’s whitepaper{32} “Assumption 1. The blockchain network used in the EntrapNet is reliable.”
+The problem is clearly stated in the Compute Coin’s whitepaper{32} *“Assumption 1. The blockchain network used in the EntrapNet is reliable.”*
 Reliability assumptions can be dangerous in a 0 Trust perspective.
 
 A Layer 1 must consider many threats which are much more mitigated for a Layer2:
