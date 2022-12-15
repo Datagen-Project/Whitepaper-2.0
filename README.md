@@ -288,6 +288,7 @@ b.	Individual Validators have a different latency time in regard to specific Use
 4.	Being the latency time response to specific users different from one single Validator to another Validator, Validators will have different competitive advantages regarding the probability of winning the pairing with specific Users. The main latency-time factors will be hardware and software processing speed and the internet connectivity time required for the data to go back and forth from user to validator + the opposite way. This implies that there will be an incentive for Validators to have the lowest latency time possible, to win the greatest possible number of Pairings (since being Paired with more paying users translate into more economic reward). 
 
 a.	The incentive to have faster hardware and software will ingenerate a race to have faster performing machines (aided by performant software), which will decrease the overall average latency time of the network (faster Validators have more users, slower less, too slow none); 
+
 b.	Since the other component of latency-time is the time required for the raw and processed data to go back and forth, Validators will also compete to be closer to the biggest number possible of users, meaning that there will be a bigger incentive to have at least a certain number of validating activities outside of major server farms, to win clusters of users far from the big global server farms, for example in Africa or Latin America;
 
 
