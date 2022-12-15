@@ -144,11 +144,17 @@ Reliability assumptions can be dangerous in a 0 Trust perspective.
 A Layer 1 must consider many threats which are much more mitigated for a Layer2:
 
 a.	Attacks 51 or similar attacks are easier to be performed against smaller networks; 
+
 b.	Building a blockchain from scratch implies much more development, much more things can go wrong; 
+
 c.	Being insular, the developer community is much smaller and so it is less probable to find bugs before malicious actors do. Bitcoin itself had many critical bugs and, without the support of its developer community, many things could have gone wrong{33}; 
+
 d.	Lack of support from other projects, developers, investors, users already involved in existing ecosystems;
-e.	Total freedom can be too much freedom: once you have total freedom on how you want to design a stack and if the team that is working on this is relatively small you have less feedback and less scrutiny from the developer community as so is easier both to underestimate problems or to add malicious code. 
+
+e.	Total freedom can be too much freedom: once you have total freedom on how you want to design a stack and if the team that is working on this is relatively small you have less feedback and less scrutiny from the developer community as so is easier both to underestimate problems or to add malicious code; 
+
 f.	No shared security features with any underlining protocol; 
+
 g.	No shared validating resources with any underlining protocol.
 
 
