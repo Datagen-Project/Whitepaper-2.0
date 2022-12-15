@@ -222,9 +222,11 @@ c.	All the Validators of the Fast Chain process this first package of data;
 
 d.	The package of data at the same time: 
 
-i.	is hashed in the Fast Blockchain; 
-ii.	goes back to the off-chain router/worker and then to the User; 
-iii.	is hashed and potentially sent to and stored in the Heavy Blockchain;
+d1.	is hashed in the Fast Blockchain; 
+
+d2.	goes back to the off-chain router/worker and then to the User; 
+
+d3.	is hashed and potentially sent to and stored in the Heavy Blockchain;
 
 e.	Using timestamps, it’s measured whose validator was faster in processing the first package of data and in sending it back to the User;
 
@@ -242,29 +244,34 @@ h.	The Echo, which is computationally expensive, will be repeated periodically (
 i.	The User will start sending Raw Data to his Paired Fast Chain validator (off-chain, asynchronously from what is happening on-chain);
 
 j.	The Paired validator of the Fast Chain processes and hashes the data;
+At the same time: 
 
-k.	At the same time: 
+j1.	the Paired validator will send the processed data back to the User (off-chain, asynchronously from what is happening on-chain), hash included. 
 
-1.	the Paired validator will send the processed data back to the User (off-chain, asynchronously from what is happening on-chain), hash included. 
-2.	the Paired validator sends the hashed data to the Fast Chain, where is shared with multiple nodes of the Fast Chain and stored on-chain;
-3.	the Paired validator sends the hashed data to the Heavy Chain, where is stored on-chain;
+j2.	the Paired validator sends the hashed data to the Fast Chain, where is shared with multiple nodes of the Fast Chain and stored on-chain;
 
-l.	The final User has received the processed data and he sends to the Heavy Chain both the Raw data that he had previously sent to the Paired validator and the hash that he had received from him (this could be done either systematically or random, being a random solution preferable, since is a less computationally expensive one);
+j3.	the Paired validator sends the hashed data to the Heavy Chain, where is stored on-chain;
 
-
-m.	The Heavy Chain, using a random selector, randomly selects some specific computational problems to be cross-checked and randomly select three validators of the Fast Chain to perform the double-check. The three-cross checkers must be different from the Paired validator whose computational work is being double-checked; The Heavy Chain and the Fast Chain are “speaking” using an RPC;
+k.	The final User has received the processed data and he sends to the Heavy Chain both the Raw data that he had previously sent to the Paired validator and the hash that he had received from him (this could be done either systematically or random, being a random solution preferable, since is a less computationally expensive one);
 
 
-n.	The three cross-checkers send the hash of the double-checked data back to the Heavy-Chain;
+l.	The Heavy Chain, using a random selector, randomly selects some specific computational problems to be cross-checked and randomly select three validators of the Fast Chain to perform the double-check. The three-cross checkers must be different from the Paired validator whose computational work is being double-checked; The Heavy Chain and the Fast Chain are “speaking” using an RPC;
+
+
+m.	The three cross-checkers send the hash of the double-checked data back to the Heavy-Chain;
 
 
 n.	The Heavy chain confronts the hash provided by User, Paired Validator and the three cross-checkers:
 
 n1.	If the hash provided by User, Paired validator and all the three cross checkers are matching, the Paired Validator will pass the test: no consequences;
+
 n2.	If the hash provided by User and Paired validator are matching, while the hash provided by the three cross-checkers is not matching: the Paired validator must pay a price (it’s implied the Paired validator was sending false results); 
+
 n3.	If the hash provided by User and Paired validator are matching and, at the same time, the hash is matching with the one provided by 2/3 of the cross-checkers: no consequence for the Paired validator and for the matching cross-checkers, but the cross-checker providing a false result will pay a price; 
-n3.	If the hash provided by User and Paired validator are matching and, at the same time, the hash is matching with the one provided by 1/3 cross checkers: there is substantial parity (Paired+1 Cross Checker vs 2 Cross Checkers). The cross-check can be repeated, entrusting it to a fifth validator as decisive cross-checker to win the majority and the losers will pay (this is unlikely, since it would imply a plurality of errors or collusions); 
-v.	If the hash provided by the User is not matching with the one elaborated by the three cross-checkers: the double-check is invalidated, regardless of the eventual matching or lack of matching between the hash provided by Paired validator and the cross-checkers (implying that also the raw data that the User provided to the Heavy Chain, later feed to the three cross-checkers, was unreliable).
+
+n4.	If the hash provided by User and Paired validator are matching and, at the same time, the hash is matching with the one provided by 1/3 cross checkers: there is substantial parity (Paired+1 Cross Checker vs 2 Cross Checkers). The cross-check can be repeated, entrusting it to a fifth validator as decisive cross-checker to win the majority and the losers will pay (this is unlikely, since it would imply a plurality of errors or collusions); 
+
+n5.	If the hash provided by the User is not matching with the one elaborated by the three cross-checkers: the double-check is invalidated, regardless of the eventual matching or lack of matching between the hash provided by Paired validator and the cross-checkers (implying that also the raw data that the User provided to the Heavy Chain, later feed to the three cross-checkers, was unreliable).
 
 
 Consequences of this process on the computational efficiency, latency time and hardware distribution of the Datagen network:
