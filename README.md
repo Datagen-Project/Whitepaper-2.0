@@ -110,9 +110,13 @@ This means that any Layer2 built on Ethereum will have a blocktime ≈12 seconds
 Implementing a Cloud Computing infrastructure on a general-purpose PoS protocol, with standard data propagation to different nodes raises different problems: 
 
 a)	Economy of scale moved from hardware availability to the availability of coins, tokens or assets to be staked{23}; 
+
 b)	Standard data propagation models, where data need to reach many nodes before reaching back the user, are levelling to 0 the latency-time competitive advantage of being geographically close to the user and so are decreasing the incentives to be bare metal or geographically decentralized{24};
+
 c)	PoS is already moving the initial capital costs of validating firms from purchasing machinery to purchase tokens to be staked. This shift allows validating firms to improve furthermore their economic efficiency by converting the operative costs required to manage independent GPU/CPU machines to the much more easily manageable capital costs required by simply renting computational power at a more predictable capital cost inside centralized server farms. 
+
 d)	PoS protocols are usually built to validate transactions of digital assets and execution of smart contracts (etc.); they are not customized for Cloud Computing.
+
 e)	The relative slowness of the blocktime (≈15-20s for Golem{25,26} and ≈6s for Akash{27}  and Cudos{28}) limits the use-cases to very low-latency time segments (E.G. image rendering).
 
 
