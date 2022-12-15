@@ -177,8 +177,11 @@ If this loss of efficiency is light, its environmental cost can be more than off
 How?
 
 a.	A more geographically dispersed network of Validators can put less strain on local energy grids and local water supplies; 
+
 b.	Given the smaller energy requirements, can run more easily on locally produced renewable energy;
+
 c.	It is more feasible to rely on micro grids and local energy storage;
+
 d.	Avoiding that environmentally expensive hardware is staying idle, due to a more flexible and dynamic allocation of it.
 
 
