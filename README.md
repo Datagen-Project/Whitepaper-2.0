@@ -276,23 +276,23 @@ n5.	If the hash provided by the User is not matching with the one elaborated by 
 
 Consequences of this process on the computational efficiency, latency time and hardware distribution of the Datagen network:
 
-1.	Pairing on a 1:1 basis Users and validators can avoid much unnecessary double computation, and the overall efficiency of the network can be increased; 
+1.	Pairing on a 1:1 basis Users and Validators can avoid much unnecessary double computation, and the overall efficiency of the network can be increased; 
 
-2.	Randomizing double checks, is possible to check just a small percentage of the computational problems. Checking just an increasingly smaller percentage of the computational problems implies a proportionally decreased loss of efficiency (compared to checking all the validators’ activity). For example, double-checking 1% of the computational processes (with 3 cross-checkers) implies an inherent loss of efficiency of just ≈3%, compared to a scenario in which no validator is cross-checked (as it would happen in centralized scenarios); 
+2.	Thanks to randomizing double checks, it is possible to check just a small percentage of the computational problems. Checking just an increasingly smaller percentage of the computational problems. This implies a proportionally decreased loss of efficiency (compared to checking all the Validators’ activity). For example, double-checking 1% of the computational processes (with 3 cross-checkers) implies an inherent loss of efficiency of just ≈3%, compared to a scenario in which no validator is cross-checked (as it would happen in centralized scenarios); 
 
 3.	Computing and sending data back to Users asynchronously from what is happening on-chain implies that such data don’t need to propagate to multiple nodes before reaching back the User and implies both that: 
 
 a.	Computational results can potentially reach back the user faster than the blocktime; 
-b.	Individual validators have a different latency time in regard to specific Users;
+b.	Individual Validators have a different latency time in regard to specific Users;
 
-4.	Being the latency time response to specific users different from individual validators to individual validator, validators will have different competitive advantages regarding the probability of winning the pairing with specific Users. The main latency-time factors will be hardware and software processing speed and the internet connectivity time required for the data to go back and forth from user to validator + the opposite way. This implies that there will be an incentive for validators to have the lowest latency time possible, to win the greatest possible number of Pairings (since being Paired with more paying users = more economic reward). 
+4.	Being the latency time response to specific users different from one single Validator to another Validator, Validators will have different competitive advantages regarding the probability of winning the pairing with specific Users. The main latency-time factors will be hardware and software processing speed and the internet connectivity time required for the data to go back and forth from user to validator + the opposite way. This implies that there will be an incentive for Validators to have the lowest latency time possible, to win the greatest possible number of Pairings (since being Paired with more paying users translate into more economic reward). 
 
-a.	The incentive to have faster hardware and software will ingenerate a race to have faster performing machines (aided by performant software), that will decrease the overall average latency time of the network (faster validators have more users, slower less, too slow none); 
-b.	Since the other component of latency-time is the time required for the raw and processed data to go back and forth, validators will also compete to be closer to the biggest number possible of users, meaning that there will be a bigger incentive to have at least a certain number of validating activities outside of major server farms, to win clusters of users far from the big global server farms, for example in Africa or Latin America;
+a.	The incentive to have faster hardware and software will ingenerate a race to have faster performing machines (aided by performant software), which will decrease the overall average latency time of the network (faster Validators have more users, slower less, too slow none); 
+b.	Since the other component of latency-time is the time required for the raw and processed data to go back and forth, Validators will also compete to be closer to the biggest number possible of users, meaning that there will be a bigger incentive to have at least a certain number of validating activities outside of major server farms, to win clusters of users far from the big global server farms, for example in Africa or Latin America;
 
 
 
-This design makes the Datagen network working on principles close to edge computing, although in a decentralized blockchain-based framework. 
+This design makes the Datagen network work on principles close to edge computing, although in a decentralized blockchain-based framework. 
 
 •	Saving only the hashed data is much lighter than saving the whole computational process and allows nodes to save store capability;
 
