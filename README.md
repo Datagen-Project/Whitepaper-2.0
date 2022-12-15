@@ -283,6 +283,7 @@ Consequences of this process on the computational efficiency, latency time and h
 3.	Computing and sending data back to Users asynchronously from what is happening on-chain implies that such data don’t need to propagate to multiple nodes before reaching back the User and implies both that: 
 
 a.	Computational results can potentially reach back the user faster than the blocktime; 
+
 b.	Individual Validators have a different latency time in regard to specific Users;
 
 4.	Being the latency time response to specific users different from one single Validator to another Validator, Validators will have different competitive advantages regarding the probability of winning the pairing with specific Users. The main latency-time factors will be hardware and software processing speed and the internet connectivity time required for the data to go back and forth from user to validator + the opposite way. This implies that there will be an incentive for Validators to have the lowest latency time possible, to win the greatest possible number of Pairings (since being Paired with more paying users translate into more economic reward). 
@@ -310,66 +311,66 @@ This design makes the Datagen network work on principles close to edge computing
 Datagen Infrastructure is built using Substrate{37}.
 Substrate allows:
 
-1.	modular development; 
-2.	great flexibility; 
-3.	many modular development elements, called “pallets”{38}) already developed by other teams, which allow us to save on development time; 
-4.	with the right development efforts all sort of useful customized pallets can be created; 
-5.	a vibrant community of developers and projects; 
-6.	the creation of blockchains that can upgraded in a forkless way just using consensus features. This can be greatly beneficial long term for a smooth and easy process of improvement of the Datagen infrastructure; 
-7.	correlation between Substrate and the Polkadot ecosystem, with the opportunity to work both with Polkadot’s Rely Chain and to find synergies with other projects in the ecosystem. 
+1.	Modular development; 
+2.	Great flexibility; 
+3.	Many modular development elements, called “pallets”{38}, which are already developed by other teams, which allow us to save on development time; 
+4.	With the right development efforts all sort of useful customized pallets can be created; 
+5.	A vibrant community of developers and projects; 
+6.	The creation of blockchains that can upgraded in a forkless way just using consensus features. This can be greatly beneficial long term for a smooth and easy process of improvement of the Datagen infrastructure; 
+7.	Interrelationship between Substrate and the Polkadot ecosystem, with the opportunity to work both with Polkadot’s Rely Chain and to find synergies with other projects in the ecosystem. 
 
 
-There are other elements of the project, like the token and tokenomic smart contracts built using Solidity EVM-compatible BSC and other languages and frameworks are used for the frontend elements.
+There are other elements of the project, like the token and tokenomic smart contracts built using Solidity EVM-compatible BNB Binance Smart Chain ("BSC") and other languages and frameworks are used for the front-end elements.
 
 
 
-**Why we underlined interrelation between Substrate and the Polkadot ecosystem**
+**Why we underlined interrelationship between Substrate and the Polkadot ecosystem**
 
 While both the Fast Chain and the Heavy Chain could theoretically and effectively be built as two separate standalone substrate-based L1 blockchains, building the Heavy Blockchain as a Polkadot’s (or Kusama’s) Parachain{39} can be a great opportunity, since Polkadot/(Kusama)’s Parachains have the same scalability of a sidechain, but inherit the security features of their “parent” blockchain (the Rely Chain of Polkadot/Kusama) as a Layer2 would have. 
 Having the best characteristics of both sidechains and classic Layer2, a Parachain can help the Datagen network to have the same security level of a Layer2 and the same scalability of a sidechain. 
 These scalability+security features are achieved thanks to a common characteristic that all Parachains have: Collators.
-Parachains can have customized consensus-protocols, PoW, PoS or whatever, and can select the way in which their validators are validating transactions. 
-Collators have the vital role to collect transactions from users (deemed valid according to consensus protocol of the Parachain itself), aggregate them in one block and send them unsigned to one or more Validator(s) responsible for proposing the state of a block of the Parachain, to be afterwards signed also in the Rely Chain.
+Parachains can have customized consensus-protocols, PoW, PoS or whatever, and can select the way in which their Validators are validating transactions. 
+Collators have the vital role to collect transactions from users (deemed valid according to consensus protocol of the Parachain itself), aggregate them in one block and send them unsigned to one or more Validator(s) responsible for proposing the state of a block of the Parachain, to be afterwards signed also in the Relay Chain.
 Given their critical role, Collators are deemed reliable after a careful scrutiny, with a 2/3 verification from a set of Validators that are issuing statements about the validity of candidate Collators. 
 Another useful feature of Parachains is the possibility to develop them with a customized consensus protocol.
-Without going too deep into the description of the Consensus of Polkadot /Kusama, it is enough to say that it can be easily adapted without too many modifications, for the functionalities of the Heavy Chain, where is ideal to have few, but reliable, block authors capable of managing all the randomized processes explained before.
-A robust, reliable, resilient Heavy Chain in the form of a Parachain can manage in an authoritative way also the consensus protocol of the Fast Chain and the Fast chain validators can receive authoritative instructions from the Heavy Chain (whom they are going to pair with, who is going to perform the random double checks, which Fast chain validator is admitted in the chain and who is expelled or must pay a price for not passing a cross-check, etc…) without the need to reduce the security level of the Fast Chain itself.
+Without going too deep into the description of the Consensus of Polkadot /Kusama, it is enough to say that it can be easily adapted without too many modifications, for the functionalities of the Heavy Chain, where it is ideal to have few, but reliable, block authors capable of managing all the randomized processes explained before.
+A robust, reliable, resilient Heavy Chain in the form of a Parachain can manage in an authoritative way also the consensus protocol of the Fast Chain and the Fast chain Validators can receive authoritative instructions from the Heavy Chain (e.g. whom they are going to pair with, who is going to perform the random double checks, which Fast chain validator is admitted in the chain and who is expelled or must pay a price for not passing a cross-check, etc…) without the need to reduce the security level of the Fast Chain itself.
 
 The use of a Polkadot (/Kusama) Parachain could be the right combination for the implementation of the Decentralized Cloud Computing Infrastructure the World needs.
 
 
 
-**How the Datagen tokeneconomic and the DataGen (#DG) utility token can aid the Datagen decentralized infrastructure**
+**How the Datagen tokeneconomics and the DataGen (#DG) utility token can aid the Datagen decentralized infrastructure**
 
-The mere fact that the Datagen infrastructure is providing cloud computing{40} to Web3 applications and to PoS blockchains’ validators is not enough to justify the presence of a native utility token, considering that payments could be performed otherwise using stablecoins, ETH or DOT.
+The mere fact that the Datagen infrastructure is providing Cloud Computing{40} to Web3 applications and to PoS blockchains’ Validators is not enough to justify the presence of a native utility token, considering that payments could be performed otherwise using stablecoins, ETH or DOT.
  
 We need our native token to increase the economic efficiency, caused by the computational inefficiency of the decentralized processes and security features of the infrastructure, and to make the service as affordable as possible for the user. 
 We must consider different factors: some driving prices up and some driving prices down.
 
-For example, in a decentralized network, the hardware could be less optimized (cooling pumps, etc…) and this factor alone could make computation less efficient, energy-wise, and energy has an economic price. Another factor driving up prices is that cross-checks, hashing and other functional processes (that are not happening in centralized networks), are consuming computational power that is not used to solve computational processes for which the users are paying. 
+For example, in a decentralized network, the hardware could be less optimized (cooling pumps, etc…) and this factor alone could make computation less efficient, energy-wise, and energy has an economic price. Another factor driving prices up is that cross-checks, hashing and other functional processes (that are not happening in centralized networks), are consuming computational power that is not used to solve computational processes for which the users are paying. 
 
-A proper design can help to start a race between validators to be the fastest but is also possible to design some mechanisms to start a race between validators to be the most price-competitive, driving down prices.
+A proper design can help to start a race between Validators to be the fastest but also to be the most price-competitive, which would drive prices down.
 
-For example, smart contract-based price bidding mechanisms can set a formal market price range. Users offering too lower prices won’t have cloud computing validated and validators requiring too expensive prices won’t sell cloud computing to users.
-This triggers the right incentives for validators to invest in efficiency improvements, as inefficient validators, asking prices out of market range, cannot survive unless they invest capital to make themselves more efficient and affordable.
-This phenomenon is at the same time cause and effect of a network in which the hardware stack is more decentralized: if all or most of the validators are hosted inside AWS, they will all have a mostly flat capital cost for their operations, since the price charged by AWS and AWS competitors is usually in a certain range. 
-As long as validators are satisfied with this status quo, market price = AWS price + validator’s margin. 
-For most validators could be enough to cash the profit surplus obtained after subtracting the price AWS is charging them, until a single validator realizes that AWS itself is selling the service at a profit and that AWS profit is eating the validator’s own margin. 
-Even more, that single validator realizes that AWS server farm location (for example in the Netherland) is not optimal to win pairings with customers situated in a remote location like Eastern Africa and then realizes that the price of electricity in Tanzania is roughly 1/3 of the electricity price that AWS is paying in the Netherlands{41}.
+For example, smart contract-based price bidding mechanisms can set a formal market price range. Users offering too lower prices won’t have Cloud Computing validated and Validators requiring too expensive prices won’t sell cloud computing to users.
+This triggers the right incentives for Validators to invest in efficiency improvements, as inefficient Validators, asking prices out of market range, cannot survive unless they invest capital to make themselves more efficient and affordable.
+This phenomenon is at the same time cause and effect of a network in which the hardware stack is more decentralized: if all or most of the Validators are hosted inside the likes of AWS, they will all have a mostly flat capital cost for their operations, since the price charged by AWS and AWS competitors is usually in a certain range. 
+As long as Validators are satisfied with this status quo, *market price = AWS price + Validator’s margin*. 
+For most Validators this could be enough to cash in the profit surplus obtained after subtracting the price AWS is charging them, until a single Validator realizes that AWS itself is selling the service at a profit and that AWS profit is eating the validator’s own margin. 
+Even more, that single Validator realizes that AWS server farm location (for example in the Netherland) is not optimal to win pairings with customers situated in a remote location like Eastern Africa and then realizes that the price of electricity in Tanzania is roughly 1/3 of the electricity price that AWS is paying in the Netherlands{41}.
 
-A rational validator, having realized that: 
+A rational validator would realize that: 
 1.	there are paying customers in Eastern Africa; 
 2.	he is better positioned to win the pairing with them by relocating his computing hardware closer to East Africa;
 3.	he can even further increase his competitive edge avoiding paying the AWS’ margins by emancipating himself from it; 
-4.	once free form AWS he is able either to bid for lower prices (winning more customers and avoiding that his hardware ever stays idle for lack of demand) or he can increase his margins with the same number of customers; 
+4.	once free from AWS he is able either to bid for lower prices (winning more customers and avoiding that his hardware ever stays idle for lack of demand) or he can increase his margins with the same number of customers; 
 5.	he can increase his margins even more by moving operations in Tanzania, where energy bills are lower.
 
-After those realizations, our single validator could decide to act accordingly.
-Some other validators may not do it, since moving operations to Tanzania requires solving additional logistic problems; but someone else will do it, and that pioneer will start a race to move operations to physically decentralized locations. 
-When a sufficient share of the network’s validators will move their operations to decentralized locations, the validators that has decentralized their operations will force other competing validators either to do the same or to be constrained to the crowded markets that are both: 
+After those realizations, our single Validator could decide to act accordingly.
+Some other Validators may not do it, since moving operations to Tanzania requires solving additional logistic problems; but someone else will do it, and that pioneer will start a race to move operations to physically decentralized locations. 
+When a sufficient share of the network’s Validators will move their operations to decentralized locations, the Validators that has decentralized their operations will force other competing Validators either to do the same or to be constrained to the crowded markets that are both: 
 
-a.	in a physical location close to the AWS server farm, so that being hosted by AWS can still be a latency-time advantage; 
-b.	segments in which Users are willing to pay a premium for a better latency-time response. 
+a.	In a physical location close to the AWS server farm, so that being hosted by AWS can still be a latency-time advantage; 
+b.	Segments in which Users are willing to pay a premium for a better latency-time response. 
 
 Some users could decide to pay more, entrusting their computational power to more expensive validators, but this won’t affect their capability to turn away at-will the expensive validator, that must compensate higher prices with other premiums like improved latency time or improved uptime, in order to retain Users, since the User could opt for cheaper ones.
 
