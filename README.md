@@ -383,6 +383,7 @@ Some other Validators may not do it, since moving operations to Tanzania require
 When a sufficient share of the network’s Validators will move their operations to decentralized locations, the Validators that has decentralized their operations will force other competing Validators either to do the same or to be constrained to the crowded markets that are both: 
 
 a.	In a physical location close to the AWS server farm, so that being hosted by AWS can still be a latency-time advantage; 
+
 b.	Segments in which Users are willing to pay a premium for a better latency-time response. 
 
 Some users could decide to pay more, entrusting their computational power to more expensive validators, but this won’t affect their capability to turn away at-will the expensive validator, that must compensate higher prices with other premiums like improved latency time or improved uptime, in order to retain Users, since the User could opt for cheaper ones.
