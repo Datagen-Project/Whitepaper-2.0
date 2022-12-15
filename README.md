@@ -124,7 +124,7 @@ E.G. the overreliance of Akash on Solana Validators to source Cloud Computing, t
 
 **Why the Decentralized Cloud Computing Infrastructure that World needs could just be a Layer1, but it’s a Risky Bet**
 
-Based on all that we said before, the simpler solution to all the problems assessed before could simply seem to be a properly designed standalone Layer1: when designing a Layer1 you can customize many parameters, including blocktime, runtime, consensus protocol and you can even design proper incentives so that some validators can choose to be independent from centralized server farms without being strangled. 
+The simpler solution to all the problems assessed until now could simply seem to be a properly designed standalone Layer1: when designing a Layer1 you can customize many parameters, including blocktime, runtime, consensus protocol and you can even design proper incentives so that some Validators can choose to be independent from centralized server farms without being strangled. 
 
 
 So, why not just using a Layer1?
@@ -132,20 +132,20 @@ So, why not just using a Layer1?
 
 
 Let’s see a concrete example.
-The data infrastructure Oort{31} (formerly known as Compute Coin) is an example of good design for a Layer1 based cloud computing infrastructure (at least on -white-paper, since as of late 2022, is still under construction): they can integrate PEKKA, a native Layer that is aggregating cloud computing from different sources, with MCP, a native Layer1 with a highly customized consensus protocol (Proof of Honesty -PoH-) using EntrapNet algorithms to entrust nodes with cross-check phishing tasks. Without analyzing further the consensus protocol of Oort, is clear that, by virtue of being Layer1, Oort can potentially have much greater customization advantages compared to Layer2 networks like Akash or Cudos. 
+The data infrastructure Oort{31} (formerly known as Compute Coin) is an example of good design for a Layer1 based Cloud Computing infrastructure (at least on -white-paper, since as of late 2022, it is still under construction): they can integrate PEKKA, a native Layer that is aggregating cloud computing from different sources, with MCP, a native Layer1 with a highly customized consensus protocol (Proof of Honesty -PoH-) using EntrapNet algorithms to entrust nodes with cross-check phishing tasks. Without analyzing further the consensus protocol of Oort, it is clear that, by virtue of being a Layer1, Oort can potentially have much greater customization advantages compared to Layer2 networks like Akash or Cudos. 
 So, where is the caveat?
-The problem is clearly stated Compute Coin’s whitepaper{32} “Assumption 1. The blockchain network used in the EntrapNet is reliable.”
+The problem is clearly stated in the Compute Coin’s whitepaper{32} “Assumption 1. The blockchain network used in the EntrapNet is reliable.”
 Reliability assumptions can be dangerous in a 0 Trust perspective.
 
 A Layer 1 must consider many threats which are much more mitigated for a Layer2:
 
-j.	Attacks 51 or similar attacks are easier to be performed against smaller networks; 
-j.	Building a blockchain from scratch implies much more development, much more things can go wrong; 
-j.	Being insular, the developer community is much smaller and so it is less probable to find bugs before malicious actors do. Bitcoin itself had many critical bugs and, without the support of its developer community, many things could have gone wrong{33}; 
-j.	Lack of support from other projects, developers, investors, users already involved in existing ecosystems;
-j.	Total freedom can be too much freedom: once you have total freedom on how you want to design a stack and if the team that is working on this is relatively small you have less feedback and less scrutiny from the developer community as so is easier both to underestimate problems or to add malicious code. 
-j.	No shared security features with any underlining protocol; 
-j.	No shared validating resources with any underlining protocol.
+a.	Attacks 51 or similar attacks are easier to be performed against smaller networks; 
+b.	Building a blockchain from scratch implies much more development, much more things can go wrong; 
+c.	Being insular, the developer community is much smaller and so it is less probable to find bugs before malicious actors do. Bitcoin itself had many critical bugs and, without the support of its developer community, many things could have gone wrong{33}; 
+d.	Lack of support from other projects, developers, investors, users already involved in existing ecosystems;
+e.	Total freedom can be too much freedom: once you have total freedom on how you want to design a stack and if the team that is working on this is relatively small you have less feedback and less scrutiny from the developer community as so is easier both to underestimate problems or to add malicious code. 
+f.	No shared security features with any underlining protocol; 
+g.	No shared validating resources with any underlining protocol.
 
 
 While the problems above seems really vexing for Layer1 developed from scratch, a much less customized Layer 1, for instance copy-catting the source code of an existing EVM compatible blockchain, would imply a smaller chance to incur in those vexing risks, but won’t allow for the customization features for which you want to use a Layer1 in the first place.
@@ -165,22 +165,22 @@ While the problems above seems really vexing for Layer1 developed from scratch, 
 
 **Why the Decentralized Cloud-Computing Infrastructure that the World needs must be efficient**
 
-The Cloud Computing industry (including Cloud Storage and other segments out of our scope), as of 2022, is emitting 2.5-3.7% of Global Carbon emissions{34} slightly more than the aviation industry. 
+The Cloud Computing industry (including Cloud Storage and other segments out of scope in the present Whitepaper), as of 2022, is emitting 2.5-3.7% of Global Carbon emissions{34} slightly more than the aviation industry. 
 For this reason alone, it is of the outmost importance for any network setting itself to be part of the solution and not part of the problem, to consider efficiency in its design{35}. When we couple environmental responsibility with the higher cost that the user is paying when unnecessary computational workloads are performed by a network, this makes the solution of this problem of the most paramount importance.
-Any decentralized blockchain-based network will lose some computational efficiency (compared to centralized ones) since at least some data will be validated multiple times by validators and stored multiple times by nodes. 
+Any decentralized blockchain-based network will lose some computational efficiency (compared to centralized ones) since at least some data will be validated multiple times by Validators and stored multiple times by nodes. 
 If this loss of efficiency is light, its environmental cost can be more than offset. 
 
 How?
 
-a.	a more geographically dispersed network of validators can put less strain on local energy grids and local water supplies; 
-b.	given the smaller energy requirements, can run more easily on locally produced renewable energy;
-c.	it is more feasible to rely on micro grids and local energy storage;
-d.	avoiding that environmentally expansive hardware is staying idle, due to a more flexible and dynamic allocation of it.
+a.	A more geographically dispersed network of Validators can put less strain on local energy grids and local water supplies; 
+b.	Given the smaller energy requirements, can run more easily on locally produced renewable energy;
+c.	It is more feasible to rely on micro grids and local energy storage;
+d.	Avoiding that environmentally expensive hardware is staying idle, due to a more flexible and dynamic allocation of it.
 
 
 
 
-The Datagen network must try to achieve a slight loss off efficiency, keeping to the minimum (security and decentralized wise) the average number of double-checks on specific computational processes.
+The Datagen network must try to achieve a slight loss off efficiency, keeping to the minimum (for security and decentralization efficiencies) the average number of double-checks on specific computational processes.
 At the same time, Datagen must keep to the minimum the amount of data which is hashed and saved on-chain, to avoid the proliferation of unvaluable data stored in multiple nodes.
 
 
@@ -203,22 +203,22 @@ To explain it, let’s give a **closer look at the Datagen architecture.**
 
 The **Datagen Infrastructure** is designed with **two separate blockchains with different functions:** 
 
-•	the **Fast Blockchain**'s (in blue) validators are also the providers of Cloud Computing in the network
+•	the **Fast Blockchain**'s (in blue), where Validators are also the providers of Cloud Computing in the network
 
 •	the **Heavy Blockchain** (in pale red), is a Proof-of-Stake blockchain that manages in the most computationally-efficient way possible some functions indispensable for a secure blockchain 
 
 
-The User is requesting cloud computing to the network. 
-Users can be either “solo” requestors, that are at the same time requestors and final users of the received data (e.g. validators of third party PoS blockchains like Polkadot, Binance, Cardano or Cosmos{36}), or a requestor pooling data to and from final Users in plural locations (e.g. the requestor is a gaming application managing workloads for end Users/ gamers in different areas of the world), therefore “pooled” users.
+The User is requesting Cloud Computing to the network. 
+Users can be either “solo” requestors, that are at the same time requestors and final users of the received data (e.g. Validators of third party PoS blockchains like Polkadot, Binance, Cardano or Cosmos{36}), or a requestor pooling data to and from final Users in plural locations (e.g. the requestor is a gaming application managing workloads for end Users/ gamers in different areas of the world), therefore “pooled” users.
 
 
 To understand better the different functions of the two blockchains, let’s follow the path of the to-be-computed (and later computed) data: 
  
 a.	Both “solo” and “pooled” final Users usually interact with the Datagen network through APIs (APIs and applications pooling data from and to users are not shown in the diagram for a better abstraction);
 
-b.	When the User connects to the network for the first time, it sends a package of data, through an off-chain router/worker, to all the validators of the Fast Chain;
+b.	When the User connects to the network for the first time, a package of data is sent , through an off-chain router/worker, to all the Validators of the Fast Chain;
 
-c.	All the validators of the Fast Chain process this first package of data;
+c.	All the Validators of the Fast Chain process this first package of data;
 
 d.	The package of data at the same time: 
 
@@ -226,44 +226,44 @@ i.	is hashed in the Fast Blockchain;
 ii.	goes back to the off-chain router/worker and then to the User; 
 iii.	is hashed and potentially sent to and stored in the Heavy Blockchain;
 
-d.	Using timestamps, it’s measured whose validator was faster in processing the first package of data and in sending it back to the User;
+e.	Using timestamps, it’s measured whose validator was faster in processing the first package of data and in sending it back to the User;
 
-e.	The procedure is called Echo; The results of the Echo are hashed and saved on-chain -could be either the Heavy or the Fast Chain-;
+f.	The procedure is called Echo; The results of the Echo are hashed and saved on-chain -could be either the Heavy or the Fast Chain-;
 
-f.	Using the results of the Echo procedure, Users and Fast Chain’s validators are paired on individual basis. 
+g.	Using the results of the Echo procedure, Users and Fast Chain’s validators are paired on individual basis. 
 From the moment of the pairing, the computational requests of an individual User will be processed only by one, individual validator of the Fast Chain. 
 This pairing happens:
 
 -	latency-time wise, for the standard user 
 -	or using only randomness for those users for which the strategic value of sourcing cloud computing in a more randomized and cyber-secure way is more valuable than optimal latency time-pairing (e.g. validators of PoS blockchains using the service to source secure cloud computing);
 
-g.	The Echo, which is computationally expensive, will be repeated periodically (every x time, with order of magnitude of weeks or months) or if the Paired validator goes down or anytime at request and expense of the User;
+h.	The Echo, which is computationally expensive, will be repeated periodically (every x time, with order of magnitude of weeks or months) or if the Paired validator goes down or anytime at request and expense of the User;
 
-h.	The User will start sending Raw Data to his Paired Fast Chain validator (off-chain, asynchronously from what is happening on-chain);
+i.	The User will start sending Raw Data to his Paired Fast Chain validator (off-chain, asynchronously from what is happening on-chain);
 
-i.	The Paired validator of the Fast Chain processes and hashes the data;
+j.	The Paired validator of the Fast Chain processes and hashes the data;
 
-j.	At the same time: 
+k.	At the same time: 
 
-i.	the Paired validator will send the processed data back to the User (off-chain, asynchronously from what is happening on-chain), hash included. 
-ii.	the Paired validator sends the hashed data to the Fast Chain, where is shared with multiple nodes of the Fast Chain and stored on-chain;
-iii.	the Paired validator sends the hashed data to the Heavy Chain, where is stored on-chain;
+1.	the Paired validator will send the processed data back to the User (off-chain, asynchronously from what is happening on-chain), hash included. 
+2.	the Paired validator sends the hashed data to the Fast Chain, where is shared with multiple nodes of the Fast Chain and stored on-chain;
+3.	the Paired validator sends the hashed data to the Heavy Chain, where is stored on-chain;
 
-k.	The final User has received the processed data and he sends to the Heavy Chain both the Raw data that he had previously sent to the Paired validator and the hash that he had received from him (this could be done either systematically or random, being a random solution preferable, since is a less computationally expensive one);
-
-
-l.	The Heavy Chain, using a random selector, randomly selects some specific computational problems to be cross-checked and randomly select three validators of the Fast Chain to perform the double-check. The three-cross checkers must be different from the Paired validator whose computational work is being double-checked; The Heavy Chain and the Fast Chain are “speaking” using an RPC;
+l.	The final User has received the processed data and he sends to the Heavy Chain both the Raw data that he had previously sent to the Paired validator and the hash that he had received from him (this could be done either systematically or random, being a random solution preferable, since is a less computationally expensive one);
 
 
-m.	The three cross-checkers send the hash of the double-checked data back to the Heavy-Chain;
+m.	The Heavy Chain, using a random selector, randomly selects some specific computational problems to be cross-checked and randomly select three validators of the Fast Chain to perform the double-check. The three-cross checkers must be different from the Paired validator whose computational work is being double-checked; The Heavy Chain and the Fast Chain are “speaking” using an RPC;
+
+
+n.	The three cross-checkers send the hash of the double-checked data back to the Heavy-Chain;
 
 
 n.	The Heavy chain confronts the hash provided by User, Paired Validator and the three cross-checkers:
 
-i.	If the hash provided by User, Paired validator and all the three cross checkers are matching, the Paired Validator will pass the test: no consequences;
-ii.	If the hash provided by User and Paired validator are matching, while the hash provided by the three cross-checkers is not matching: the Paired validator must pay a price (it’s implied the Paired validator was sending false results); 
-iii.	If the hash provided by User and Paired validator are matching and, at the same time, the hash is matching with the one provided by 2/3 of the cross-checkers: no consequence for the Paired validator and for the matching cross-checkers, but the cross-checker providing a false result will pay a price; 
-iv.	If the hash provided by User and Paired validator are matching and, at the same time, the hash is matching with the one provided by 1/3 cross checkers: there is substantial parity (Paired+1 Cross Checker vs 2 Cross Checkers). The cross-check can be repeated, entrusting it to a fifth validator as decisive cross-checker to win the majority and the losers will pay (this is unlikely, since it would imply a plurality of errors or collusions); 
+n1.	If the hash provided by User, Paired validator and all the three cross checkers are matching, the Paired Validator will pass the test: no consequences;
+n2.	If the hash provided by User and Paired validator are matching, while the hash provided by the three cross-checkers is not matching: the Paired validator must pay a price (it’s implied the Paired validator was sending false results); 
+n3.	If the hash provided by User and Paired validator are matching and, at the same time, the hash is matching with the one provided by 2/3 of the cross-checkers: no consequence for the Paired validator and for the matching cross-checkers, but the cross-checker providing a false result will pay a price; 
+n3.	If the hash provided by User and Paired validator are matching and, at the same time, the hash is matching with the one provided by 1/3 cross checkers: there is substantial parity (Paired+1 Cross Checker vs 2 Cross Checkers). The cross-check can be repeated, entrusting it to a fifth validator as decisive cross-checker to win the majority and the losers will pay (this is unlikely, since it would imply a plurality of errors or collusions); 
 v.	If the hash provided by the User is not matching with the one elaborated by the three cross-checkers: the double-check is invalidated, regardless of the eventual matching or lack of matching between the hash provided by Paired validator and the cross-checkers (implying that also the raw data that the User provided to the Heavy Chain, later feed to the three cross-checkers, was unreliable).
 
 
