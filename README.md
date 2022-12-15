@@ -55,7 +55,7 @@ This is not a betrayal of the vision expressed in the Original Datagen Whitepape
 
 
 **Note: The Datagen Whitepaper is analyzing the need for and characteristics of an ideal decentralized network for GPU/CPU Cloud Computing - Not for Cloud Storage{3}**
-Cloud Computing and Cloud Storage networks share many core features and many assumptions made for decentralized GPU/CPU Cloud Computing could be true even for decentralized Cloud Storage. However, many different factors, which are not the subject of this whitepaper (such as different hardware and software requirements), entail that, to be performed in economically efficient ways, both GPU/CPU Cloud Computing and Cloud Storage require separate architectures. That’s why, in continuity with other existing solutions, in the present whitepaper we only analyze the need and the characteristics of a GPU/CPU Cloud Computing network.
+Cloud Computing and Cloud Storage networks share many core features and many assumptions made for decentralized GPU/CPU Cloud Computing could be true even for decentralized Cloud Storage. However, many different factors, which are not the subject of this whitepaper (such as different hardware and software requirements), entail that, to be performed in economically efficient ways, both GPU/CPU Cloud Computing and Cloud Storage require separate architectures. That’s why, in continuity with other existing solutions, we only analyze the need and the characteristics of a GPU/CPU Cloud Computing network.
 Cloud Storage needs could be addressed separately, notably with the use of APIs or other solutions to connect to exisiting cloud storage stacks or protocols (e.g. Filecoin{4} or IPFS{5}).
 
 
@@ -65,9 +65,9 @@ Cloud Storage needs could be addressed separately, notably with the use of APIs 
 
 Web3 flourished to correct the shortcomings of centralized Web2, exactly like Crypto flourished to correct the shortcomings of centralized money and DeFi the mistakes of centralized finance {6,7}.
 When Web3, Crypto or DeFi projects resort to use centralized tools for their critically important inner works they are undermining not only the ideal decentralization principles that sparked the Web3 revolution, but also their products’ security, resiliency, transparency{8}. 
-Web3 applications and PoS validators are still heavily reliant on centralized computational stacks. As cloud computing is the deepest and one of the most critical layers for any Web3 project, the overreliance on them is posing a strategical risk for any Web3 project (e.g. PoS blockchains, a decentralized metaverse or a privacy friendly search engine) making them more vulnerable to censorship, downtime and efficiency issues.
+Web3 applications and Proof of Stake (or "PoS") validators are still heavily reliant on centralized computational stacks. As cloud computing is the deepest and one of the most critical layers for any Web3 project, the overreliance on them is posing a strategical risk for any Web3 project (e.g. PoS blockchains, a decentralized metaverse or a privacy friendly search engine) making them more vulnerable to censorship, downtime and efficiency issues.
 
-The Datagen network, is a blockchain-based GPU/CPU cloud computing infrastructure for on-chain computation. It will include a Layer1 and a Layer2 substrate-based blockchains, with an asynchronous randomized consensus protocol, that will allow low-latency and efficient computation, with a higher degree of decentralization, even at the hardware level.
+**The Datagen network, is a blockchain-based GPU/CPU Cloud Computing infrastructure for on-chain computation. It will include a Layer1 and a Layer2 substrate-based blockchains, with an asynchronous randomized consensus protocol, that will allow low-latency and efficient computation, with a higher degree of decentralization, even at the hardware level.**
 In this whitepaper we will explain the general design principles of the Datagen architecture and how the above stated characteristics can be achieved.
 But, before, we need to explain what is already there and what the Datagen infrastructure is not. Why and how, choosing different paths, the Datagen infrastructure can be better equipped to reach the goals of speed, efficiency, and improved uptime with a rigorous decentralization process.
 
@@ -75,20 +75,20 @@ But, before, we need to explain what is already there and what the Datagen infra
 
 **Why the Decentralized Cloud Computing Infrastructure that the World needs can’t be off-chain**
 
-Blockchain technology was not originally created to perform cloud computing efficiently{9}. 
-Blockchain was created to reliably store immutable data, which are impossible to falsify and not reliant on opaque centralized authorities. 
-The focus on these stated goals vs efficiency is self-evident just looking at the energy consumption of first generation PoW blockchain networks. Afterwards, the problems generated from the modeling of the original PoW consensus protocols (namely staggering energy consumptions{10} and very high transaction costs) have been mitigated by the second wave of consensus protocols: PoS consensuses{11}.
-The incremental efficiency of PoS technology, compared to PoW, offered interesting solutions to decentralized-cloud computing networks in terms of efficiency, but no solution to the problem of speed: even in PoS, data needs to propagate to different nodes and validators{12,13,14} and this takes a time which is very long compared to the cloud computing industry standard latency-time.
-That’s why some decentralized cloud computing projects{15,16} took the short-cut of moving the computation off-chain. 
+Blockchain technology was not originally created to perform Cloud Computing efficiently{9}. 
+Blockchain was created to reliably store immutable data, making them impossible to falsify and not reliant on opaque centralized authorities. 
+The focus on these stated goals vs efficiency is self-evident when looking at the energy consumption of first generation Proof of Work (or "PoW") blockchain networks. Afterwards, the problems generated from the modeling of the original PoW consensus protocols (namely staggering energy consumptions{10} and very high transaction costs) have been mitigated by the second wave of consensus protocols: PoS consensuses{11}.
+The incremental efficiency of PoS technology, compared to PoW, offered interesting solutions to decentralized Cloud Computing networks in terms of efficiency, but no solution to the problem of speed: even in PoS, data needs to propagate to different nodes and Validators{12,13,14} and this takes a very long time, compared to the Cloud Computing industry standard latency-time.
+That’s why some decentralized Cloud Computing projects{15,16} took the short-cut of moving the computation off-chain. 
 The technical approach of moving the computation off-chain is becoming increasingly popular in the industry, since it improves the latency time performances without the need for very complex architectures. 
-The main problem of this approach is that the blockchain technology is removed altogether from the equation when it comes to the computation itself and is just re-introduced in a cosmetically pleasing way for secondary features of those off-chain networks, such as smart contracts to match supply and demand or similar. 
+The main problem of this approach is that the blockchain technology is removed altogether from the equation when it comes to the computation itself and is just re-introduced in a cosmetically pleasing way for secondary features of those off-chain networks, such as smart contracts to match supply and demand or similar tools. 
 But: 
 
-a)	the problem of trust is not solved, since the computational process itself is left to the goodwill of the supplier, like in centralized systems; 
-b)	such networks are solving the latency time issues removing blockchain-nodes from their data infrastructure and incentivizing the cloud computing suppliers to be hosted in scaled, “reliable” and “cost-effective” centralized server farms. 
+a)	The problem of trust is not solved, since the computational process itself is left to the goodwill of the supplier, like in centralized systems; 
+b)	Such networks are solving the latency time issues removing blockchain-nodes from their data infrastructure and incentivizing the Cloud Computing suppliers to be hosted in scaled, “reliable” and “cost-effective” centralized server farms. 
 
 Relying on centralized providers makes the users of the network vulnerable to the same censorship, downtime, and efficiency problems that they are trying to move away from.
-We don’t believe that off-chain solutions are without merits or without use-cases: smart contracts can add security and transparency layers to the cloud computing processed by centralized providers, and this is certainly an improvement, but we should not use centralized providers as foundational layers for core /native Web3 applications or, worse, ecosystems, reducing Web3 to a loosely decentralized layer built on the top of AWS.
+We don’t believe that off-chain solutions are without merits or without use-cases: smart contracts can add security and transparency layers to the Cloud Computing processed by centralized providers, and this is certainly an improvement, but we should not use centralized providers as foundational layers for core /native Web3 applications or, worse, ecosystems, reducing Web3 to a loosely decentralized layer built on the top of the likes of AWS.
 
 Off-chain solutions should be used only when viable on-chain solutions are not available, since on-chain is more resilient, more transparent, more inclusive, but also less prone to censorship, to unsecure computation and to cybersecurity hazards.
 
@@ -104,20 +104,21 @@ Being Layer2 has benefits:
  
 Why not using a Layer2 only? 
 
-Layer2 usually need at least to respect the blocktime of the underlying Layer(s). 
-This means that any Layer2 built on Ethereum will have a blocktime ≈12 seconds or greater and any (classically defined) Layer2 built on Polkadot or Cosmos will have a blocktime ≈6 seconds or greater. The apparent solution would seem to be a sidechain{19,20}, since they can have their own blocktime, but sidechains don’t inherit the security of their “parent” blockchains and so, for the moment, we’ll deem sidechains as imperfect, but perfectible, solutions{21,22} and we’ll come to that later, speaking about Datagen integration with the Polkadot ecosystem.
-Implementing a cloud computing infrastructure on a general-purpose PoS protocol, with standard data propagation to different nodes determines different problems: 
+Layer2 usually needs at least to respect the blocktime of the underlying Layer(s). 
+This means that any Layer2 built on Ethereum will have a blocktime ≈12 seconds or greater and any (classically defined) Layer2 built on Polkadot or Cosmos will have a blocktime ≈6 seconds or greater. The apparent solution would seem to be a sidechain{19,20}, since they can have their own blocktime, but sidechains don’t inherit the security of their “parent” blockchains and so, for the moment, we’ll deem sidechains as imperfect, although perfectible, solutions{21,22} (we’ll come to that later, speaking about Datagen integration with the Polkadot ecosystem).
+
+Implementing a Cloud Computing infrastructure on a general-purpose PoS protocol, with standard data propagation to different nodes raises different problems: 
 
 a)	Economy of scale moved from hardware availability to the availability of coins, tokens or assets to be staked{23}; 
 b)	Standard data propagation models, where data need to reach many nodes before reaching back the user, are levelling to 0 the latency-time competitive advantage of being geographically close to the user and so are decreasing the incentives to be bare metal or geographically decentralized{24};
 c)	PoS is already moving the initial capital costs of validating firms from purchasing machinery to purchase tokens to be staked. This shift allows validating firms to improve furthermore their economic efficiency by converting the operative costs required to manage independent GPU/CPU machines to the much more easily manageable capital costs required by simply renting computational power at a more predictable capital cost inside centralized server farms. 
-d)	PoS protocols are usually built to validate transactions of digital assets and execution of smart contracts (etc.); they are not customized for cloud computing.
+d)	PoS protocols are usually built to validate transactions of digital assets and execution of smart contracts (etc.); they are not customized for Cloud Computing.
 e)	The relative slowness of the blocktime (≈15-20s for Golem{25,26} and ≈6s for Akash{27}  and Cudos{28}) limits the use-cases to very low-latency time segments (E.G. image rendering).
 
 
 
 Standard PoS solutions are often just adding the unnecessary complications of moving processes on-chain, adding at least other three complex layers without solving the centralization pain points.  
-E.G. the overreliance of Akash on Solana validators to source cloud computing, then sourced by Solana’s validators mostly from Google or AWS {28,29,30}. 
+E.G. the overreliance of Akash on Solana Validators to source Cloud Computing, then sourced by Solana’s Validators mostly from Google Cloud Platform (or "GCP") or AWS {28,29,30}. 
 
 
 
