@@ -386,29 +386,39 @@ a.	In a physical location close to the AWS server farm, so that being hosted by 
 
 b.	Segments in which Users are willing to pay a premium for a better latency-time response. 
 
-Some users could decide to pay more, entrusting their computational power to more expensive validators, but this won’t affect their capability to turn away at-will the expensive validator, that must compensate higher prices with other premiums like improved latency time or improved uptime, in order to retain Users, since the User could opt for cheaper ones.
+Some users could decide to pay more, entrusting their computational power to more expensive Validators, but this won’t affect their capability to turn away at-will the expensive Validator, that must compensate higher prices with other premiums like improved latency time or improved uptime, in order to retain Users, since the User could opt for cheaper ones.
 
-This process doesn’t have the only merit of making the Datagen network more emancipated from centralized providers, but also offers the opportunity to drive down the average prices that the users are paying. 
+This process doesn’t have the only merit of making the Datagen network more emancipated from centralized providers, but also offers the opportunity to drive the average prices for the users. 
 
 
 
-**Where the token fits in?** 
+**Where the DataGen (#DG) token fits in?** 
 
-Competition by itself can help to drive down prices, but this is effective only once the network has grown enough to have a real global competition between hundreds or even thousands of validators and when there is a great number of users, so that there is enough distributed global demand, enough for a validator to set up an independent validating facility, so that he can address the demand of specific regions. 
-Only a grown network, with a reasonably forecastable continued long-term existence and operation, can justify the risk of building from scratch a validating activity somewhere remote, vs just renting from AWS{42}. 
-At the same time, in a network with a still small number of validators, a few of them can easily collude in a cartel to keep prices high; and, since the first Users to try the network will be a small number of applications with a very important strategic reason to do so (let’s imagine validators of a PoS blockchains with incentives from a foundation), they will be willing to pay a very high premium. The high premium will keep validators profitable even when their operating expenses are relatively high, giving no special reason for the validators to innovate and invest so that they can become more competitive price-wise.
-High premiums could attract more validators, but, without organic growth of the demand base, eventual bursts in the supply will make price drop fast enough for validators to abandon the network, leading to the price fast growing again and to cyclic alternance of long high-price phases and short low-price phases, keeping in the network only the above-mentioned users with very strong strategic reasons to do so, accepting both high premiums and price volatility.
+Competition by itself can help to drive prices down, but this is effective only once the network has grown enough to have a real global competition between hundreds or even thousands of Validators and when there is a great number of users, so that there is enough distributed global demand, enough for a Validator to set up an independent validating facility, so that he can address the demand of specific regions. 
+Only a grown network, with a reasonably forecastable continued long-term existence and operation, can justify the risk of building from scratch a validating activity somewhere remote, instead of just renting from the likes of AWS{42}. 
+At the same time, in a network with a still small number of Validators, a few of them can easily collude in a cartel to keep prices high; and, since the first Users to try the network will be a small number of applications with a very important strategic reason to do so (let’s imagine Validators of a PoS blockchains with incentives from a foundation), they will be willing to pay a very high premium. The high premium will keep Validators profitable even when their operating expenses are relatively high, giving no special reason for the Validators to innovate and invest so that they can become more competitive price-wise.
+High premiums could attract more Validators, but, without organic growth of the demand base, eventual bursts in the supply will make price drop fast enough for Validators to abandon the network, leading to the price fast growing again and to cyclic alternance of long high-price phases and short low-price phases, keeping in the network only the above-mentioned users with very strong strategic reasons to do so, accepting both high premiums and price volatility.
 
-This risks to become a catch 22 situation, where the Datagen network is not scaling because is expensive and is expensive because is not scaling.
-To solve this problem, is necessary to off-load part of the price from the Users’ shoulders. It’s necessary to subsidize the price, so that users pay part of it, but not all of it. 
-In this way a positive-feedback-loop can start: users with a willingness to pay lower premium prices are on-boarding the network, creating the demand for an higher number of validators and creating a more geographically diverse user base and all the other premises so that validators must compete to offer sustainably lower prices, able to equate or even outperform centralized solutions’ prices, without the aid of the subsidies used necessarily in the early phases, to go there. 
+This could materialize into a catch 22 situation, whereby the Datagen network is not scaling because it is expensive and it is expensive because it is not scaling.
+To solve this problem, it is necessary to off-load part of the price from the Users’ shoulders. It’s necessary to subsidize the price, so that users pay part of it, but not all of it. 
+In this way a positive-feedback-loop can start: users with a willingness to pay lower premium prices are on-boarding the network, creating the demand for an higher number of Validators and creating a more geographically diverse user base and all the other premises so that Validators must compete to offer sustainably lower prices, able to equate or even outperform centralized solutions’ prices, without the aid of the subsidies used necessarily in the early phases, to go there. 
 Given that the Datagen network is operating in synergy with the crypto industry, the solution is not far-fetched: although of dubious environmental sustainability, PoW blockchains have demonstrated that mining inflationary incentives are enough to nurture a globally distributed and colossal energy-devouring data mining industry. 
-Traditional PoW mining industry relies just on inflationary mined tokens (and on transaction fees), while in the Datagen network the main source of revenue for the validators is the computational power provided to and paid by the Users, but, at the same time, inflationary mined tokens can provide additional revenue, allowing validators to charge the Users a lower price. 
-Being the Heavy Blockchain a Parachain that can use a very computationally light PoS consensus protocol kept safe by the Polkadot Rely Chain, there is no need to waste computational resources to PoW-mining data to secure and hash transactions in the Datagen network, but it is possible to borrow from PoW a basic principle: in PoW miners are basically rewarded by increasing their probability to win inflationary-mined tokens while they proportionally increase their relative contribution to the hash rate of the network. 
+Traditional PoW mining industry relies just on inflationary mined tokens (and on transaction fees), while in the Datagen network the main source of revenue for the Validators is the computational power provided to and paid by the Users, but, at the same time, inflationary mined tokens can provide additional revenue, allowing Validators to charge the Users a lower price. 
+
+As the Heavy Blockchain is a Parachain that can use a low computationally intensive PoS consensus protocol secured by the Polkadot Relay Chain, there is no need to waste computational resources to PoW-mining data to secure and hash transactions in the Datagen network. But it is possible to borrow a basic principle from PoW: in PoW miners are basically rewarded by increasing their probability to win inflationary-mined tokens while they proportionally increase their relative contribution to the hash rate of the network. 
 In the same way, a very simple mining/validating reward mechanism can be introduced for the Datagen network, replacing the hash rate variable with the total-computing-power-processed-by-the-network variable. 
 
-That, very simply, looks like: #DGr_A time = #DGr_tot time / (Comput_tot Network time / Comput_A time)
-#DGr is inflationary reward in DataGen tokens. #DGr_A time is the reward to the individual validator in n time. #DGr_tot time is the total inflationary release in n time. Comput_tot network is the computational power processed by the network in n time. Comput_A is the computational power provided by the single validator in n time.
+To put it simply: *#DGr_A time = #DGr_tot time / (Comput_tot Network time / Comput_A time)*
+Where:
+*#DGr* is inflationary reward in DataGen tokens. 
+
+*#DGr_A time* is the reward to the individual validator in n time. 
+
+*#DGr_tot time* is the total inflationary release in n time. 
+
+*Comput_tot network* is the computational power processed by the network in n time. 
+
+*Comput_A* is the computational power provided by the single validator in n time.
 
 
 Another important utility of the DataGen token is that Datagen network’s validators need to buy it in advance and stake it (to be admitted as validators) and if they are found cheating (in reason of the cross-check process described above) they have to pay a price, losing coins that they are staking and eventually losing them all and being expelled from the network. 
