@@ -554,89 +554,175 @@ Sources
  
 
 1https://drive.google.com/file/d/19F8vn1nuF2Sotoml61RKaiIIfR_iDQq2/view
+
 2https://open.library.okstate.edu/introphilosophy/chapter/ship-of-theseus/
+
 3https://computertech.com/blog/difference-cloud-storage-computing
+
 4https://docs.filecoin.io/about-filecoin/what-is-filecoin/
+
 5https://ipfs.tech/
+
 6https://bitcoin.org/bitcoin.pdf 
+
 7https://ethereum.org/en/whitepaper/  
+
 8https://thepaypers.com/expert-opinion/ftx-is-not-a-crypto-failure-but-a-centralisation-failure-learnings-from-the-ftx-collapse—1259308 
+
 9https://assets.kpmg/content/dam/kpmg/ie/pdf/2022/04/ie-blockchain.pdf 
+
 10https://arxiv.org/pdf/2203.03717.pdf
+
 11https://adan.eu/en/article/blockchain-protocol-energy-footprint
+
 12https://www.hindawi.com/journals/scn/2021/8363131/ 
+
 13 https://blog.massbit.io/the-need-for-blockchain-data-propagation/ 
+
 14 https://vedveethi.co.in/eNote/BlkChain/Unit-2/BlkChain_Unit-2_0060.htm 
+
 15https://aleph.im/#/ 
+
 16 https://sonm.com/ 
+
 17https://www.ledger.com/academy/layer-2-blockchains-explained 
+
 18https://climbtheladder.com/10-layer-2-network-design-best-practices/ 
+
 19https://www.web3.university/article/sidechains-vs-layer2s 
+
 20https://www.alchemy.com/overviews/sidechains-vs-layer2s  
+
 21https://www.blocknative.com/blog/monitor-polygon-mempool
+
 22 https://thedefiant.io/polygon-true-layer2
+
 23https://medium.com/@gertrammeloo/the-economics-of-the-proof-of-stake-consensus-algorithm-e28adf63e9db 
+
 24https://arxiv.org/pdf/1809.00455.pdf 
+
 25https://handbook.golem.network/ 
+
 26 https://stats.golem.network 
+
 27https://docs.akash.network/
+
 28https://docs.cudos.org/docs/learn/introduction/overview 
+
 29https://www.cryptoninjas.net/2020/03/13/decentralized-cloud-akash-interoperating-with-solana-for-hyper-performance-smart-contracts/
+
 30https://akash.network/blog/akash-partners-with-solana-to-bring-web-scale-smart-contracts-to-supercloud   
+
 31 https://coinrivet.com/it/amazon-hosts-37-of-actively-staked-sol-could-this-be-a-solana-kill-switch/ 
+
 31https://docs.oortech.com/oort/oort#what-is-computecoin
+
 32https://computecoin-network.s3.ap-southeast-1.amazonaws.com/static/ComputeCoin_Whitepaper.pdfv
+
 33https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures
+
 34 https://www.climatiq.io/blog/measure-greenhouse-gas-emissions-carbon-data-centres-cloud-computing#:~:text=Global%20emissions%20from%20cloud%20computing,that%20fuel%20our%20global%20economy. 
+
 35https://uptimeinstitute.com/resources/research-and-reports/uptime-institute-global-data-center-survey-results-2022
+
 36https://cosmos.network/intro 
+
 37https://substrate.io/ 
+
 38https://docs.substrate.io/reference/frame-pallets/ 
+
 39https://wiki.polkadot.network/docs/learn-parachains
+
 40https://www.futuremarketinsights.com/reports/gpu-as-a-service-market#:~:text=Prominent%20players%20in%20the%20GPU,Technologies%20Ltd.%2C%20among%20others 
+
 41https://www.globalpetrolprices.com/electricity_prices/ 
+
 42https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-gpu.html 
+
 43 https://nftplazas.com/virtual-blockchain-worlds/
+
 44https://play.decentraland.org/?realm=artemis&position=1%2C0&island=I4gcu 
+
 45 https://www.sandbox.game/en/ 
+
 46https://www.twobirds.com/en/insights/2022/global/the-sandbox-and-the-metaverse#:~:text=The%20Sandbox%20platform%20is%20a,hosted%20on%20Amazon%20Web%20Services 
+
 47 https://zebpay.com/blog/what-is-sandbox-complete-guide 
-48 https://github.com/decentraland/catalyst/issues/539 49https://decentraland.github.io/catalyst-monitor/  50https://github.com/decentraland/catalyst-owner 
+
+48 https://github.com/decentraland/catalyst/issues/539 49https://decentraland.github.io/catalyst-monitor/  
+
+50 https://github.com/decentraland/catalyst-owner 
+
 51 https://docs.decentraland.org/creator/development-guide/scene-blockchain-operations/ 
+
 52 https://metamask.io/ 
+
 53 https://about.meta.com/what-is-the-metaverse/ 
+
 54https://www.washingtonpost.com/technology/2022/01/13/privacy-vr-metaverse/  
+
 55https://wiki.phala.network/en-us/general/phala-network/intro/ 
+
 56https://groups.csail.mit.edu/ana/Publications/PubPDFs/Complexity%20of%20Internet%20Interconnection%20TPRC%202007.pdf
+
 57https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
+
 58https://www.parcl.co/blog/the-seven-layers-of-the-metaverse  
+
 59https://blockworks.co/news/measuring-decentralization-is-your-crypto-decentralized
+
 60https://medium.com/coinmonks/running-a-solana-validator-on-aws-bb86162eaf29
+
 61https://cryptopotato.com/cloud-provider-bans-solana-nodes-taking-40-offline/
+
 62https://decrypt.co/113429/is-solana-decentralized-cloud-provider-hetzner-ban-raises-questions
+
 63https://wiki.polkadot.network/docs/maintain-guides-how-to-validate-polkadot 
+
 64  https://guide.kusama.network/docs/maintain-guides-how-to-use-polkadot-validator-setup/
+
 65https://www.bnbchain.org/en/staking
+
 66https://github.com/bnb-chain/bsc/issues/243
+
 67https://twitter.com/cz_binance/status/1588949895985393664?s=21&t=LCdi7tZFKOxq1p3uLmkfeQ
+
 68https://www.coinbase.com/cloud
+
 69https://aws.amazon.com/machine-learning/customers/innovators/coinbase/
+
+
 70https://www.figment.io/infrastructure
 71 https://www.figment.io/resources/full-disclosure-figments-cosmos-validator-infrastructure 
+
 72https://cointelegraph.com/news/ethereum-dev-addresses-node-centralization-concerns-in-runup-to-the-merge
+
 73https://www.ethernodes.org/networkType/Hosting
+
 74https://hackernoon.com/ethereum-20-staking-on-aws-cloud-staking-matters
+
 75https://cryptoslate.com/data-center-operator-hosting-17-of-ethereums-nodes-says-staking-is-not-permitted/
+
 76https://www.coinbase.com/it/cloud/discover/protocol-guides/guide-to-cardano
+
 77 https://medium.com/poapool/cardano-da-holders-strategy-how-to-choose-stakepools-e2946f87b1f8 
-78https://developers.cardano.org/docs/operate-a-stake-pool/ 
+
+78https://developers.cardano.org/docs/operate-a-stake-pool/
+
 79https://datastudio.google.com/reporting/3136c55b-635e-4f46-8e4b-b8ab54f2d460/page/p_zgx5s2okoc
+
 80https://news.microsoft.com/europe/features/qwant-and-microsoft-announce-an-exclusive-partnership-for-a-unique-internet-research-experience/#:~:text=Microsoft%2C%20for%20its%20part%2C%20provides,services%20and%20Bing's%20algorithmic%20research
+
 81https://himalayas.app/companies/brave/tech-stack
+
 82https://www.realwire.com/releases/Google-alternative-Search-engine-Swisscows-starts-selling-shares
+
 83https://blog.mojeek.com/2020/12/frequently-asked-questions-about-mojeek-search-engines-technology-stack.html
+
 84https://rendertoken.com/
+
 85https://www.prnewswire.com/news-releases/visualization--3d-rendering-software-market-size-is-projected-to-reach-usd-3083-9-million-by-2027--at-a-cagr-of-12-7---valuates-reports-301452665.html  
+
 86 https://www.joinmassive.com/ 
  
  
