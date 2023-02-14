@@ -84,7 +84,8 @@ The technical approach of moving the computation off-chain is becoming increasin
 The main problem of this approach is that the blockchain technology is removed altogether from the equation when it comes to the computation itself and is just re-introduced in a cosmetically pleasing way for secondary features of those off-chain networks, such as smart contracts to match supply and demand or similar tools. 
 But: 
 
-a)	The problem of trust is not solved, since the computational process itself is left to the goodwill of the supplier, like in centralized systems; 
+a)	The problem of trust is not solved, since the computational process itself is left to the goodwill of the supplier, like in centralized systems;
+
 b)	Such networks are solving the latency time issues removing blockchain-nodes from their data infrastructure and incentivizing the Cloud Computing suppliers to be hosted in scaled, “reliable” and “cost-effective” centralized server farms. 
 
 Relying on centralized providers makes the users of the network vulnerable to the same censorship, downtime, and efficiency problems that they are trying to move away from.
