@@ -261,7 +261,7 @@ j1.	the Paired validator will send the processed data back to the User (off-chai
 
 j2.	the Paired validator sends the hashed data to the Fast Chain, where is shared with multiple nodes of the Fast Chain and stored on-chain;
 
-j3.	the Paired validator sends the hashed data to the Heavy Chain, where is stored on-chain;
+j3.	the Paired validator sends the hashed data to the Heavy Chain, where is stored on-chain (hashes representing the computational results and block data are saved on-chain, while the Raw data is saved in external storage -like IPFS nodes, Filecoin or Arweave- and not in the Heavy Chain runtime, to keep the blocksize reasonably light);
 
 k.	The final User has received the processed data and he sends to the Heavy Chain both the Raw data that he had previously sent to the Paired validator and the hash that he had received from him (this could be done either systematically or random, being a random solution preferable, since is a less computationally expensive one);
 
@@ -305,9 +305,13 @@ b.	Since the other component of latency-time is the time required for the raw an
 
 
 
+
+
 This design makes the Datagen network work on principles close to edge computing, although in a decentralized blockchain-based framework. 
 
 •	Saving only the hashed data is much lighter than saving the whole computational process and allows nodes to save store capability;
+
+•	Hashed data on-chain is complemented with data stored off-chain (inside decentralized storage like IPFS nodes), to keep the Heavy Blockchain's blocksize lighter;
 
 •	Offloading many functions (that otherwise would have been performed by the Fast Chain) to the Heavy Chain can make the Fast Chain much more performing.
 
