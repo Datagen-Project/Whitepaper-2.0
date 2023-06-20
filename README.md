@@ -168,7 +168,6 @@ While the problems above seems really vexing for Layer1 developed from scratch, 
 
 
 
-
  
 
 
@@ -202,10 +201,8 @@ At the same time, Datagen must keep to the minimum the amount of data which is h
 To explain it, let’s give a **closer look at the Datagen architecture.**
 
 
-![image](https://user-images.githubusercontent.com/88165605/207418738-1a8e0fc1-8d70-43e6-a187-9af6c81d5e07.png)
 
-
-
+![6](https://github.com/Datagen-Project/Whitepaper-2.0/assets/88165605/e94ba05f-858a-42ce-970c-29900f75c4f8)
 
 
  
