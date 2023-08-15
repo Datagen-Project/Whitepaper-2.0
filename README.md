@@ -538,7 +538,7 @@ Why?
 
 
 
-***Relationship with Web2 applications**
+**Relationship with Web2 applications**
 
 The Datagen network is born in the context of blockchain and Web3, but there are plenty of Web2 applications for which the Datagen network can offer huge plus, compared to traditional centralized providers: let’s think of NGOs online activities, always at risk of censorship in non-democratic countries, or machine learning startups, in constant need of reliable, uptime improved and cheaper GPU computational power for their AI.
 
