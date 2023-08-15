@@ -276,9 +276,9 @@ n.	The Heavy chain confronts the hash provided by User, Paired Validator and the
 
 n1.	If the hash provided by User, Paired validator and all the three cross checkers are matching, the Paired Validator will pass the test: no consequences;
 
-n2.	If the hash provided by User and Paired validator are matching, while the hash provided by the three cross-checkers is not matching: the Paired validator must pay a price (it’s implied the Paired validator was sending false results); 
+n2.	If the hash provided by User and Paired validator are matching, while the hash provided by the three cross-checkers is not matching: the Paired validator must pay a slashing price (it’s implied the Paired validator was sending false results); 
 
-n3.	If the hash provided by User and Paired validator are matching and, at the same time, the hash is matching with the one provided by 2/3 of the cross-checkers: no consequence for the Paired validator and for the matching cross-checkers, but the cross-checker providing a false result will pay a price; 
+n3.	If the hash provided by User and Paired validator are matching and, at the same time, the hash is matching with the one provided by 2/3 of the cross-checkers: no consequence for the Paired validator and for the matching cross-checkers, but the cross-checker providing a false result will pay a slashing price; 
 
 n4.	If the hash provided by User and Paired validator are matching and, at the same time, the hash is matching with the one provided by 1/3 cross checkers: there is substantial parity (Paired+1 Cross Checker vs 2 Cross Checkers). The cross-check can be repeated, entrusting it to a fifth validator as decisive cross-checker to win the majority and the losers will pay (this is unlikely, since it would imply a plurality of errors or collusions); 
 
