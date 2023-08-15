@@ -531,7 +531,7 @@ Image rendering represents one of the Cloud Computing industry segments more hea
 Why?
 
 1)	Image rendering is a big and fast-growing segment of the Cloud Computing industry{85}; 
-2)	Image rendering is processed mostly with GPU, and GPU supply can be easily found both in gamers’ hardware (exploited by opportunistic networks like Massive Computing{86}) and in ETH -and other POW protocols- professional miners’ hardware); 
+2)	Image rendering is processed mostly with GPU, and GPU supply can be easily found both in gamers’ hardware (exploited by opportunistic networks like Massive Computing{86} and in ETH -and other POW protocols- professional miners’ hardware); 
 3)	Image rendering is really forgiving in terms of latency time requirements (for a 3D artist is ok to wait seconds and even a couple of minutes to see an image rendered) and this makes the rendering segment particularly suitable for the projects that are struggling with technical weak latency performances, making it a low-hanging fruit. 
 4)	For the same reasons, image rendering is a segment in which the Datagen network can easily become a relatively relevant player, given the easier technical requirements, but also a segment over which many birds are already flying and competing, making it for Datagen a welcome additional use-case, but one in which Datagen can hardly become a dominant player.
 
