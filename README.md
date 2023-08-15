@@ -266,7 +266,7 @@ j3.	the Paired validator sends the hashed data to the Heavy Chain, where is stor
 k.	The final User has received the processed data and he sends to the Heavy Chain both the Raw data that he had previously sent to the Paired validator and the hash that he had received from him (this could be done either systematically or random, being a random solution preferable, since is a less computationally expensive one);
 
 
-l.	The Heavy Chain, using a random selector, randomly selects some specific computational problems to be cross-checked and randomly select three validators of the Fast Chain to perform the double-check. The three-cross checkers must be different from the Paired validator whose computational work is being double-checked; The Heavy Chain and the Fast Chain are “speaking” using an RPC;
+l.	The Heavy Chain, using a random selector, randomly selects some specific computational problems to be cross-checked and randomly select three validators of the Fast Chain to perform the double-check. The three cross-checkers must be different from the Paired validator whose computational work is being double-checked; The Heavy Chain and the Fast Chain are “speaking” using an RPC;
 
 
 m.	The three cross-checkers send the hash of the double-checked data back to the Heavy-Chain;
