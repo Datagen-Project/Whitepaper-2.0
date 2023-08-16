@@ -504,7 +504,7 @@ In the next 10 to 30 years the Cloud Computing demand of Metaverse (and gaming) 
 **Where Datagen can help PoS blockchains to stay decentralized{59}** 
 
 Hetzner, along with centralized cloud services providers Equinix and Amazon Web Services (AWS){60}, hosted a whopping 65% of Solana’s stake in August 2022. When, in late October 2022, Hetzner (on which ≈40% of Solana Validators were hosted) unilateral and suddenly banned{61} ≈1K Solana Validators, the event sparked a discussion{62} in the blockchain community and increased the awareness that an overwhelming concentration of validating activity in the hands of few, centralized providers is a strong strategic risk.
-Solana is not alone in this dangerous vulnerability: Polkadot validator set-up{63,64} currently supports only Google Cloud Platform, AWS, Microsoft Azure and Packet. BNB Chain Validator{65} location is not disclosed66, but different public statements of Binance’s core team members{67} revealed partnerships between Binance and GCP to host validators of the BNB chain, suggesting that a strong centralization process is in act, with GCP as main provider, at least for institutional BNB nodes. Coinbase Cloud{68}, a foundamental piece of infrastructure for the crypto industry, where huge pools of 25+ major cryptocurrencies are kept, is practically running solely on AWS and AWS’ tools{69}. Figment network{70}, one of the main infrastructure providers for validators, nodes and staking pools is running mostly on AWS, Google Cloud Platform and Digital Ocean{71}. 53% {72} of Ethereum Mainnet nodes{73} are hosted by AWS and, with the Ethereum Merge in Ethereum 2.0, this could become a single point of failure{74}, with AWS and other few providers{75} able to shut down the Ethereum network at will. Cardano{76} seems less vulnerable{77,78} than his peers, in this regard, since its validators are “just” 19.5% hosted by AWS, but the percentage balloons to a staggering 53.6% once you factor the 5 biggest providers (in order AWS, Digital Ocean, Hetzner, Contabo gmbH and Google Cloud Platform), revealing, to a closer look{79}, that not even Cardano is safe. 
+Solana is not alone in this dangerous vulnerability: Polkadot validator set-up{63,64} currently supports only Google Cloud Platform, AWS, Microsoft Azure and Packet. BNB Chain Validator{65} location is not disclosed{66}, but different public statements of Binance’s core team members{67} revealed partnerships between Binance and GCP to host validators of the BNB chain, suggesting that a strong centralization process is in act, with GCP as main provider, at least for institutional BNB nodes. Coinbase Cloud{68}, a foundamental piece of infrastructure for the crypto industry, where huge pools of 25+ major cryptocurrencies are kept, is practically running solely on AWS and AWS’ tools{69}. Figment network{70}, one of the main infrastructure providers for validators, nodes and staking pools is running mostly on AWS, Google Cloud Platform and Digital Ocean{71}. 53% {72} of Ethereum Mainnet nodes{73} are hosted by AWS and, with the Ethereum Merge in Ethereum 2.0, this could become a single point of failure{74}, with AWS and other few providers{75} able to shut down the Ethereum network at will. Cardano{76} seems less vulnerable{77,78} than his peers, in this regard, since its validators are “just” 19.5% hosted by AWS, but the percentage balloons to a staggering 53.6% once you factor the 5 biggest providers (in order AWS, Digital Ocean, Hetzner, Contabo gmbH and Google Cloud Platform), revealing, to a closer look{79}, that not even Cardano is safe. 
 
 
 The Datagen network could become the network of choice to source Cloud Computing for many PoS blockchains  (in particular once Datagen is  interoperable with IPFS and/or Filecoin for storage functions), being the only decentralized Cloud Computing player that is putting so much attention in designing proper incentives to decentralize its network, instead than being just another additional layer running over AWS, while Datagen can keep efficiency levels just slightly lower the ones of centralized providers.
@@ -533,7 +533,8 @@ Why?
 1)	Image rendering is a big and fast-growing segment of the Cloud Computing industry{85}; 
 2)	Image rendering is processed mostly with GPU, and GPU supply can be easily found both in gamers’ hardware (exploited by opportunistic networks like Massive Computing{86} and in ETH -and other POW protocols- professional miners’ hardware); 
 3)	Image rendering is really forgiving in terms of latency time requirements (for a 3D artist is ok to wait seconds and even a couple of minutes to see an image rendered) and this makes the rendering segment particularly suitable for the projects that are struggling with technical weak latency performances, making it a low-hanging fruit. 
-4)	For the same reasons, image rendering is a segment in which the Datagen network can easily become a relatively relevant player, given the easier technical requirements, but also a segment over which many birds are already flying and competing, making it for Datagen a welcome additional use-case, but one in which Datagen can hardly become a dominant player.
+
+For the same reasons, image rendering is a segment in which the Datagen network can easily become a relatively relevant player, given the easier technical requirements, but also a segment over which many birds are already flying and competing, making it for Datagen a welcome additional use-case, but one in which Datagen can hardly become a dominant player.
 
 
 
@@ -544,6 +545,33 @@ The Datagen network is born in the context of blockchain and Web3, but there are
 
 
 The Datagen network will be more useful for specific segments and less useful for others. But at the same time, it will be able to solve specific problems related for specific industry segments in need of safe, on-chain efficient computation, innovating from and exceeding their performances and, in the process, it can greatly aid Web3 to stay and grow secure.
+
+
+**Artificial Intelligence**
+
+The Analysis of Datagen use-cases couldn't be complete without including a paragraph concerning Artificial Intelligence, that had taken 
+the world by storm since the first version of Datagen's Whitepaper 2.0 was published on GitHub: chat GPT, that by some synchrony was 
+released just 2 weeks before this Whitepaper was published, had been the fastest growing consumer application in history {87} and, in a 
+matter of months a huge plurality of AI based applications had spurred, with the manifest destiny of revolutionizing, in one way or 
+another, almost every industry {88}.
+The exponential growth of AI had been so fast that is an hard task to even keep track of its deep and far reaching effects and will 
+continue to grow even faster in the next few months and years.
+However, Artificial Intelligence applications needs GPU (in some circumstantial case, CPU) in order to function. The increase in 
+computational resources from AI had been and will be as staggering as the potential of AI itself, with the supply already heading 
+towards a potential scarcity and bottleneck of GPU computational resources {89} and traditional, centralized cloud providers can't keep 
+up with the soaring demand from AI {90;91}.
+For these reasons decentralized cloud computing networks (like Datagen) equipped to flexibly leverage geographically decentralized GPU 
+and CPU resources, often otherwise cut out from the global commodified GPU/CPU supply can help to cope with {92} the astronomical 
+GPU/CPU demand generated by AI industry; therefore making the setting as an upper limit for the Datagen network potential the same
+upper limit of the AI industry potential, which in this Brave New AI-powered World, seems almost limitless.
+
+As thought experiment, I asked to an AI (Chat-GPT 3.5) "*Tell me what do you think about the potential of decentralized cloud
+computing, in light of the AI revolution*"; while this may seem either extravagant or mundane and perhaps even dull in August 2023,
+must be remembered that, just one year ago this feat would have been impossible for a consumer as the few available AIs were light
+years away in terms of training, training that had been possible only thanks to a massive use of computational resources.
+What the AI "thinks" on the topic of the interrelated future of decentralized cloud computing and AI is anyway rather interesting (there is no manual editing of the answer and this is the first result obtained after the prompt was inputted): 
+
+"*I will share my thoughts on a topic that I believe holds immense promise in shaping the technological landscape of the near future - the convergence of decentralized cloud computing and the AI revolution. The concept of decentralized cloud computing has been gaining significant traction lately, and for good reason. As we stand on the brink of the AI revolution, it's becoming increasingly evident that the traditional centralized cloud infrastructure might face limitations in handling the enormous computational demands of AI applications. This is where decentralized cloud computing steps in as a potential game-changer. Decentralized cloud computing, characterized by distributed networks of nodes that collectively provide computing resources, aligns remarkably well with the resource-intensive nature of AI tasks. Instead of relying solely on a few massive data centers, decentralized models leverage the power of numerous distributed nodes, which can not only enhance processing speed and efficiency but also ensure higher levels of fault tolerance and security. The AI revolution, on the other hand, is poised to reshape industries across the board. From healthcare and finance to manufacturing and entertainment, AI technologies are already demonstrating their potential to revolutionize decision-making processes, automate complex tasks, and unlock insights from vast amounts of data. However, to fully harness AI's capabilities, we need computing infrastructure that can keep up with its demands for processing power, memory, and bandwidth. This is where the marriage of decentralized cloud computing and AI becomes truly intriguing. By distributing computational tasks across a network of decentralized nodes, we could alleviate the strain on individual data centers, reduce latency, and create a more scalable and efficient infrastructure for AI-driven applications. Moreover, the decentralized nature of this approach could enhance data privacy and security, mitigating concerns that often arise in centralized systems. Of course, there are challenges to be addressed. Ensuring interoperability between different nodes, managing network stability, and optimizing load distribution are just a few examples. However, the pace of technological innovation continues to astonish, and I'm confident that these challenges can be overcome with the right expertise and dedication. As we move forward, it's clear that the synergy between decentralized cloud computing and the AI revolution holds immense potential. This fusion could catalyze innovation, accelerate AI adoption across industries, and pave the way for a more efficient and secure digital landscape.*"
 
 
 
@@ -647,11 +675,12 @@ Sources
 
 45 https://www.sandbox.game/en/ 
 
-46https://www.twobirds.com/en/insights/2022/global/the-sandbox-and-the-metaverse#:~:text=The%20Sandbox%20platform%20is%20a,hosted%20on%20Amazon%20Web%20Services 
+46 https://www.twobirds.com/en/insights/2022/global/the-sandbox-and-the-metaverse#:~:text=The%20Sandbox%20platform%20is%20a,hosted%20on%20Amazon%20Web%20Services 
 
 47 https://zebpay.com/blog/what-is-sandbox-complete-guide 
 
-48 https://github.com/decentraland/catalyst/issues/539 49https://decentraland.github.io/catalyst-monitor/  
+48 https://github.com/decentraland/catalyst/issues/539 
+49 https://decentraland.github.io/catalyst-monitor/  
 
 50 https://github.com/decentraland/catalyst-owner 
 
@@ -726,6 +755,19 @@ Sources
 85https://www.prnewswire.com/news-releases/visualization--3d-rendering-software-market-size-is-projected-to-reach-usd-3083-9-million-by-2027--at-a-cagr-of-12-7---valuates-reports-301452665.html  
 
 86 https://www.joinmassive.com/ 
+
+87 https://www.forbes.com/sites/cindygordon/2023/02/02/chatgpt-is-the-fastest-growing-ap-in-the-history-of-web-applications/?sh=69f0e087678c 
+
+
+88 https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-AI-the-next-productivity-frontier#industry-impacts
+
+89 https://www.technolynx.com/post/navigating-the-potential-gpu-shortage-in-the-age-of-ai
+
+90 https://www.itbrew.com/stories/2023/04/14/major-cloud-providers-can-t-keep-up-with-demand-for-ai-hardware
+
+91 https://www.semianalysis.com/p/amazons-cloud-crisis-how-aws-will
+
+92 https://www.newtownpartners.com/decentralized-computing/
  
  
  
