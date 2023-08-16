@@ -552,7 +552,7 @@ The Datagen network will be more useful for specific segments and less useful fo
 The Analysis of Datagen use-cases couldn't be complete without including a paragraph concerning Artificial Intelligence, that had taken 
 the world by storm since the first version of Datagen's Whitepaper 2.0 was published on GitHub: chat GPT, that by some synchrony was 
 released just 2 weeks before this Whitepaper was published, had been the fastest growing consumer application in history {87} and, in a 
-matter of months a huge plurality of AI based applications had spurred, with the manifest destiny of revolutionizing, in one way or 
+matter of months, a huge plurality of AI based applications had spurred, with the manifest destiny of revolutionizing, in one way or 
 another, almost every industry {88}.
 The exponential growth of AI had been so fast that is an hard task to even keep track of its deep and far reaching effects and will 
 continue to grow even faster in the next few months and years.
